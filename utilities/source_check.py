@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-# This file is part of SEAL-TK, and is distributed under the OSI-approved BSD
+# This file is part of Krest, and is distributed under the OSI-approved BSD
 # 3-Clause License. See top-level LICENSE file or
-# https://github.com/Kitware/seal-tk/blob/master/LICENSE for details.
+# https://github.com/Kitware/krest/blob/master/LICENSE for details.
 
 import io
 import os.path
@@ -12,9 +12,9 @@ import sys
 
 
 copyright_notice = \
-r"""This file is part of SEAL-TK, and is distributed under the OSI-approved BSD
+r"""This file is part of Krest, and is distributed under the OSI-approved BSD
 3-Clause License\. See top-level LICENSE file or
-https://github\.com/Kitware/seal-tk/blob/master/LICENSE for details\."""
+https://github\.com/Kitware/krest/blob/master/LICENSE for details\."""
 
 copyright_notice_cpp_re = "^/\* " + copyright_notice.replace("\n", "\n \* ") \
     + " \*/\n\n"
