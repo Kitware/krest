@@ -1155,7 +1155,7 @@ void PlayerPrivate::createTexture()
       this->imageTexture.destroy();
     }
 
-    sealtk::core::imageToTexture(this->imageTexture, this->image);
+    krest::core::imageToTexture(this->imageTexture, this->image);
 
     auto const w = static_cast<float>(this->image->width());
     auto const h = static_cast<float>(this->image->height());

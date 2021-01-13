@@ -22,7 +22,7 @@ namespace krest
 namespace gui
 {
 
-using sealtk::core::AbstractProxyModel;
+using krest::core::AbstractProxyModel;
 
 // ============================================================================
 class AbstractItemRepresentationPrivate

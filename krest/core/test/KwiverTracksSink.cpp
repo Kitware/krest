@@ -178,5 +178,5 @@ void TestKwiverTracksSink::kw18()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestKwiverTracksSink)
+QTEST_MAIN(krest::core::test::TestKwiverTracksSink)
 #include "KwiverTracksSink.moc"

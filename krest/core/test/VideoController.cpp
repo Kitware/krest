@@ -151,11 +151,11 @@ void TestVideoController::compareFrames(
       if (!seekFiles[i][j].isEmpty())
       {
         auto const& expectedPath =
-          sealtk::test::testDataPath("VideoController/" + seekFiles[i][j]);
+          krest::test::testDataPath("VideoController/" + seekFiles[i][j]);
 
         auto const& expected = QImage{expectedPath};
         auto const& actual =
-          sealtk::core::imageContainerToQImage(frame.image);
+          krest::core::imageContainerToQImage(frame.image);
         QCOMPARE(actual, expected);
 
         QFileInfo fiActual{qtString(frame.metaData.imageName())};
@@ -301,5 +301,5 @@ void TestVideoController::times()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestVideoController)
+QTEST_MAIN(krest::core::test::TestVideoController)
 #include "VideoController.moc"

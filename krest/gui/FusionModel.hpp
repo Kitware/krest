@@ -19,7 +19,7 @@ namespace gui
 
 class FusionModelPrivate;
 
-class KREST_GUI_EXPORT FusionModel : public sealtk::core::AbstractItemModel
+class KREST_GUI_EXPORT FusionModel : public krest::core::AbstractItemModel
 {
   Q_OBJECT
 

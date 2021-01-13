@@ -157,5 +157,5 @@ void TestAutoLevelsTask::levels_data()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestAutoLevelsTask)
+QTEST_MAIN(krest::core::test::TestAutoLevelsTask)
 #include "AutoLevelsTask.moc"

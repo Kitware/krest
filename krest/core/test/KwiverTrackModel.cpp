@@ -312,5 +312,5 @@ void TestKwiverTrackModel::updateTrack()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestKwiverTrackModel)
+QTEST_MAIN(krest::core::test::TestKwiverTrackModel)
 #include "KwiverTrackModel.moc"

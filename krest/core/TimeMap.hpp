@@ -263,6 +263,6 @@ void TimeMap<Value>::insert(TimeMap<Value> const& other)
 
 } // namespace krest
 
-Q_DECLARE_METATYPE(sealtk::core::SeekMode)
+Q_DECLARE_METATYPE(krest::core::SeekMode)
 
 #endif

@@ -178,5 +178,5 @@ void TestKwiverDetectionsSink::csv()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestKwiverDetectionsSink)
+QTEST_MAIN(krest::core::test::TestKwiverDetectionsSink)
 #include "KwiverDetectionsSink.moc"

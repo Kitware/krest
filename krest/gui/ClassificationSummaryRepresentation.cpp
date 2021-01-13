@@ -12,7 +12,7 @@
 #include <QHash>
 #include <QVector>
 
-namespace sc = sealtk::core;
+namespace sc = krest::core;
 
 namespace kvr = kwiver::vital::range;
 

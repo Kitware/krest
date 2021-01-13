@@ -10,7 +10,7 @@
 
 namespace kv = kwiver::vital;
 
-Q_DECLARE_METATYPE(sealtk::core::TimeMap<int>)
+Q_DECLARE_METATYPE(krest::core::TimeMap<int>)
 
 namespace krest
 {
@@ -214,5 +214,5 @@ void TestTimeMap::find_data()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestTimeMap)
+QTEST_MAIN(krest::core::test::TestTimeMap)
 #include "TimeMap.moc"

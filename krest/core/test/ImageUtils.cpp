@@ -247,7 +247,7 @@ void TestImageUtils::imageToTexture()
 
   // Create and fill texture
   QOpenGLTexture texture{QOpenGLTexture::Target2DArray};
-  ::sealtk::core::imageToTexture(texture, imageContainer);
+  ::krest::core::imageToTexture(texture, imageContainer);
 
   // Select shader
   auto const& shader =
@@ -352,5 +352,5 @@ void TestImageUtils::imageToTexture_data()
 
 } // namespace krest
 
-QTEST_MAIN(sealtk::core::test::TestImageUtils)
+QTEST_MAIN(krest::core::test::TestImageUtils)
 #include "ImageUtils.moc"

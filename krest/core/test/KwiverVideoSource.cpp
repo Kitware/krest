@@ -162,9 +162,9 @@ void TestKwiverVideoSource::seek()
     if (!file.isEmpty())
     {
       auto const& expected =
-        QImage{sealtk::test::testDataPath("KwiverVideoSource/" + file)};
+        QImage{krest::test::testDataPath("KwiverVideoSource/" + file)};
       auto const& actual =
-        sealtk::core::imageContainerToQImage(frame.image);
+        krest::core::imageContainerToQImage(frame.image);
       QCOMPARE(actual, expected);
 
       QFileInfo fi{qtString(frame.metaData.imageName())};
@@ -206,5 +206,5 @@ void TestKwiverVideoSource::frames()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestKwiverVideoSource)
+QTEST_MAIN(krest::core::test::TestKwiverVideoSource)
 #include "KwiverVideoSource.moc"

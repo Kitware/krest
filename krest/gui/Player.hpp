@@ -127,7 +127,7 @@ signals:
 
 public slots:
   virtual void setImage(kwiver::vital::image_container_sptr const& image,
-                        sealtk::core::VideoMetaData const& metaData);
+                        krest::core::VideoMetaData const& metaData);
   virtual void setTrackModel(QAbstractItemModel* model);
   virtual void setSelectedTrackIds(QSet<qint64> const& selectedIds);
 
@@ -177,6 +177,6 @@ private:
 
 } // namespace krest
 
-Q_DECLARE_OPERATORS_FOR_FLAGS(sealtk::gui::ExtentsTypes)
+Q_DECLARE_OPERATORS_FOR_FLAGS(krest::gui::ExtentsTypes)
 
 #endif

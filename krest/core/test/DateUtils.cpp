@@ -144,5 +144,5 @@ void TestDateUtils::timeString_data()
 
 } // namespace krest
 
-QTEST_MAIN(sealtk::core::test::TestDateUtils)
+QTEST_MAIN(krest::core::test::TestDateUtils)
 #include "DateUtils.moc"

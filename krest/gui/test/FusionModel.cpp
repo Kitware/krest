@@ -62,10 +62,10 @@ constexpr DataRow data3[] = {
 };
 
 // ============================================================================
-class TestModelBase : public sealtk::core::AbstractItemModel
+class TestModelBase : public krest::core::AbstractItemModel
 {
 public:
-  using sealtk::core::AbstractItemModel::data;
+  using krest::core::AbstractItemModel::data;
 
 protected:
   QVariant data(QModelIndex const& index, int role,
@@ -81,17 +81,17 @@ QVariant TestModelBase::data(
     auto& row = rowData[index.row()];
     switch (role)
     {
-      case sealtk::core::NameRole:
-      case sealtk::core::LogicalIdentityRole:
+      case krest::core::NameRole:
+      case krest::core::LogicalIdentityRole:
         return row.id;
 
-      case sealtk::core::StartTimeRole:
+      case krest::core::StartTimeRole:
         return QVariant::fromValue(row.start);
 
-      case sealtk::core::EndTimeRole:
+      case krest::core::EndTimeRole:
         return QVariant::fromValue(row.end);
 
-      case sealtk::core::UserVisibilityRole:
+      case krest::core::UserVisibilityRole:
         return row.visible;
 
       default:
@@ -99,7 +99,7 @@ QVariant TestModelBase::data(
     }
   }
 
-  return sealtk::core::AbstractItemModel::data(index, role);
+  return krest::core::AbstractItemModel::data(index, role);
 }
 
 // ============================================================================
@@ -160,10 +160,10 @@ void testRow(
   QAbstractItemModel const& model, int row,
   time_us_t expectedStart, time_us_t expectedEnd, bool expectedVisibility)
 {
-  using sealtk::core::LogicalIdentityRole;
-  using sealtk::core::StartTimeRole;
-  using sealtk::core::EndTimeRole;
-  using sealtk::core::VisibilityRole;
+  using krest::core::LogicalIdentityRole;
+  using krest::core::StartTimeRole;
+  using krest::core::EndTimeRole;
+  using krest::core::VisibilityRole;
 
   auto const& index = model.index(row, 0);
 
@@ -185,7 +185,7 @@ void testModelData(
   QAbstractItemModel const& model, qint64 id,
   time_us_t expectedStart, time_us_t expectedEnd, bool expectedVisibility)
 {
-  using sealtk::core::LogicalIdentityRole;
+  using krest::core::LogicalIdentityRole;
 
   for (auto const row : kvr::iota(model.rowCount()))
   {
@@ -307,5 +307,5 @@ void TestFusionModel::mutatingModel()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::gui::test::TestFusionModel)
+QTEST_MAIN(krest::gui::test::TestFusionModel)
 #include "FusionModel.moc"

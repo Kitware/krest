@@ -183,7 +183,7 @@ KwiverPipelineWorker::~KwiverPipelineWorker()
 }
 
 // ----------------------------------------------------------------------------
-void KwiverPipelineWorker::addVideoSource(sealtk::core::VideoSource* source)
+void KwiverPipelineWorker::addVideoSource(krest::core::VideoSource* source)
 {
   QTE_D();
 

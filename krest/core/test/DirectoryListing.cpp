@@ -111,5 +111,5 @@ void TestDirectoryListing::listing_data()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestDirectoryListing)
+QTEST_MAIN(krest::core::test::TestDirectoryListing)
 #include "DirectoryListing.moc"

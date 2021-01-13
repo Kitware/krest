@@ -33,10 +33,10 @@ void KwiverPipelinePortSet::bind(
 
   for (auto const& p : this->portNames(pipeline, type))
   {
-    sealtk::core::bind(this->timePort, timePortName, p);
+    krest::core::bind(this->timePort, timePortName, p);
     for (auto const& ap : additionalPorts)
     {
-      sealtk::core::bind(ap.first, ap.second, p);
+      krest::core::bind(ap.first, ap.second, p);
     }
   }
 }

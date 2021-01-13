@@ -44,7 +44,7 @@ class AbstractItemRepresentationPrivate;
 /// low-level data types into data suitable for presentation, as well as common
 /// handling for handling and manipulating item visibility states.
 class KREST_GUI_EXPORT AbstractItemRepresentation
-  : public sealtk::core::AbstractProxyModel
+  : public krest::core::AbstractProxyModel
 {
   Q_OBJECT
 

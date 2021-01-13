@@ -275,5 +275,5 @@ void TestAbstractItemRepresentation::testData(int role)
 
 } // namespace krest
 
-QTEST_MAIN(sealtk::gui::test::TestAbstractItemRepresentation)
+QTEST_MAIN(krest::gui::test::TestAbstractItemRepresentation)
 #include "AbstractItemRepresentation.moc"

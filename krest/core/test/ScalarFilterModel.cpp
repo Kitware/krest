@@ -48,7 +48,7 @@ namespace // anonymous
 {
 
 // ============================================================================
-class TestModel : public sealtk::core::AbstractItemModel
+class TestModel : public krest::core::AbstractItemModel
 {
 public:
   TestModel(int rows) : rows{rows} {}
@@ -70,12 +70,12 @@ QVariant TestModel::data(QModelIndex const& index, int role) const
     auto const row = index.row();
     switch (role)
     {
-      case sealtk::core::NameRole:
-      case sealtk::core::LogicalIdentityRole:
+      case krest::core::NameRole:
+      case krest::core::LogicalIdentityRole:
         return row;
 
-      case sealtk::core::StartTimeRole:
-      case sealtk::core::EndTimeRole:
+      case krest::core::StartTimeRole:
+      case krest::core::EndTimeRole:
         return QVariant::fromValue(static_cast<time_us_t>(row * 100));
 
       default:
@@ -83,13 +83,13 @@ QVariant TestModel::data(QModelIndex const& index, int role) const
     }
   }
 
-  return this->sealtk::core::AbstractItemModel::data(index, role);
+  return this->krest::core::AbstractItemModel::data(index, role);
 }
 
 // ----------------------------------------------------------------------------
 QSet<int> visibleRows(QAbstractItemModel const& model)
 {
-  using sealtk::core::VisibilityRole;
+  using krest::core::VisibilityRole;
 
   auto result = QSet<int>{};
   for (auto const row : kvr::iota(model.rowCount()))
@@ -121,8 +121,8 @@ private slots:
 // ----------------------------------------------------------------------------
 void TestScalarFilterModel::filtering()
 {
-  using sealtk::core::StartTimeRole;
-  using sealtk::core::EndTimeRole;
+  using krest::core::StartTimeRole;
+  using krest::core::EndTimeRole;
 
   QFETCH(int, rows);
   QFETCH(QVariant, startLowerBound);
@@ -202,5 +202,5 @@ void TestScalarFilterModel::filtering_data()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestScalarFilterModel)
+QTEST_MAIN(krest::core::test::TestScalarFilterModel)
 #include "ScalarFilterModel.moc"

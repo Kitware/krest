@@ -131,6 +131,6 @@ QTE_END_META_NAMESPACE()
 
 } // namespace krest
 
-Q_DECLARE_OPERATORS_FOR_FLAGS(sealtk::core::ItemTypes)
+Q_DECLARE_OPERATORS_FOR_FLAGS(krest::core::ItemTypes)
 
 #endif

@@ -212,7 +212,7 @@ void TestKwiverPipelineWorker::pipeline()
       else
       {
         auto const& expectedImage = QImage{
-          sealtk::test::testDataPath("KwiverPipelineWorker/" + expectedName)};
+          krest::test::testDataPath("KwiverPipelineWorker/" + expectedName)};
 
         QCOMPARE(QFileInfo{actualName}.fileName(), expectedName);
         QCOMPARE(actualImage, expectedImage);
@@ -280,5 +280,5 @@ void TestKwiverPipelineWorker::pipeline_data()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestKwiverPipelineWorker)
+QTEST_MAIN(krest::core::test::TestKwiverPipelineWorker)
 #include "KwiverPipelineWorker.moc"

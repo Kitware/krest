@@ -110,5 +110,5 @@ void TestKwiverTrackSource::loadTracks()
 } // namespace krest
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestKwiverTrackSource)
+QTEST_MAIN(krest::core::test::TestKwiverTrackSource)
 #include "KwiverTrackSource.moc"

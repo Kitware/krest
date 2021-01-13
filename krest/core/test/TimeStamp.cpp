@@ -7,7 +7,7 @@
 #include <QObject>
 #include <QtTest>
 
-Q_DECLARE_METATYPE(sealtk::core::TimeStamp)
+Q_DECLARE_METATYPE(krest::core::TimeStamp)
 
 namespace krest
 {
@@ -272,8 +272,8 @@ COMPARE(lt, <)
 
 } // namespace krest
 
-Q_DECLARE_METATYPE(sealtk::core::test::TimeStampTestData)
+Q_DECLARE_METATYPE(krest::core::test::TimeStampTestData)
 
 // ----------------------------------------------------------------------------
-QTEST_MAIN(sealtk::core::test::TestTimeStamp)
+QTEST_MAIN(krest::core::test::TestTimeStamp)
 #include "TimeStamp.moc"
