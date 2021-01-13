@@ -2,14 +2,14 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/PlayerControl.hpp>
+#include <krest/gui/PlayerControl.hpp>
 #include "ui_PlayerControl.h"
 
-#include <sealtk/core/VideoController.hpp>
+#include <krest/core/VideoController.hpp>
 
 #include <QAction>
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -203,4 +203,4 @@ void PlayerControl::setParamsFromVideoController()
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest

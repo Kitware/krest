@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/AbstractItemRepresentation.hpp>
+#include <krest/gui/AbstractItemRepresentation.hpp>
 
-#include <sealtk/core/AbstractItemModel.hpp>
-#include <sealtk/core/DataModelTypes.hpp>
+#include <krest/core/AbstractItemModel.hpp>
+#include <krest/core/DataModelTypes.hpp>
 
 #include <vital/types/timestamp.h>
 
@@ -17,7 +17,7 @@
 namespace kv = kwiver::vital;
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -273,7 +273,7 @@ void TestAbstractItemRepresentation::testData(int role)
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest
 
 QTEST_MAIN(sealtk::gui::test::TestAbstractItemRepresentation)
 #include "AbstractItemRepresentation.moc"

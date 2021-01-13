@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/FusionModel.hpp>
+#include <krest/gui/FusionModel.hpp>
 
-#include <sealtk/core/AbstractItemModel.hpp>
-#include <sealtk/core/DataModelTypes.hpp>
+#include <krest/core/AbstractItemModel.hpp>
+#include <krest/core/DataModelTypes.hpp>
 
 #include <vital/types/timestamp.h>
 
@@ -19,7 +19,7 @@ namespace kvr = kwiver::vital::range;
 
 using time_us_t = kwiver::vital::timestamp::time_t;
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -304,7 +304,7 @@ void TestFusionModel::mutatingModel()
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest
 
 // ----------------------------------------------------------------------------
 QTEST_MAIN(sealtk::gui::test::TestFusionModel)

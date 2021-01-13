@@ -2,16 +2,16 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_KwiverPipelineWorker_hpp
-#define sealtk_core_KwiverPipelineWorker_hpp
+#ifndef krest_core_KwiverPipelineWorker_hpp
+#define krest_core_KwiverPipelineWorker_hpp
 
-#include <sealtk/core/Export.h>
+#include <krest/core/Export.h>
 
 #include <arrows/qt/EmbeddedPipelineWorker.h>
 
 #include <qtGlobal.h>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -54,6 +54,6 @@ private:
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

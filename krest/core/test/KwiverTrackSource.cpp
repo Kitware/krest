@@ -2,12 +2,12 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/test/TestCore.hpp>
+#include <krest/test/TestCore.hpp>
 
-#include <sealtk/core/test/TestCommon.hpp>
-#include <sealtk/core/test/TestTracks.hpp>
+#include <krest/core/test/TestCommon.hpp>
+#include <krest/core/test/TestTracks.hpp>
 
-#include <sealtk/core/KwiverTrackSource.hpp>
+#include <krest/core/KwiverTrackSource.hpp>
 
 #include <vital/range/indirect.h>
 
@@ -20,7 +20,7 @@ namespace kvr = kwiver::vital::range;
 
 using ModelPointer = std::shared_ptr<QAbstractItemModel>;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -107,7 +107,7 @@ void TestKwiverTrackSource::loadTracks()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 // ----------------------------------------------------------------------------
 QTEST_MAIN(sealtk::core::test::TestKwiverTrackSource)

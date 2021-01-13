@@ -2,11 +2,11 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/test/TestVideo.hpp>
+#include <krest/core/test/TestVideo.hpp>
 
 namespace kv = kwiver::vital;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -47,4 +47,4 @@ void TestVideoRequestor::update(
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

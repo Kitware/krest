@@ -2,8 +2,8 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_Version_h
-#define sealtk_core_Version_h
+#ifndef krest_core_Version_h
+#define krest_core_Version_h
 
 #define KREST_VERSION "@KREST_VERSION@"
 

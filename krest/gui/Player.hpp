@@ -2,12 +2,12 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_gui_Player_hpp
-#define sealtk_gui_Player_hpp
+#ifndef krest_gui_Player_hpp
+#define krest_gui_Player_hpp
 
-#include <sealtk/gui/Export.h>
+#include <krest/gui/Export.h>
 
-#include <sealtk/core/VideoDistributor.hpp>
+#include <krest/core/VideoDistributor.hpp>
 
 #include <vital/types/detected_object_set.h>
 #include <vital/types/image_container.h>
@@ -23,7 +23,7 @@
 class QAbstractItemModel;
 class QImage;
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -175,7 +175,7 @@ private:
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest
 
 Q_DECLARE_OPERATORS_FOR_FLAGS(sealtk::gui::ExtentsTypes)
 

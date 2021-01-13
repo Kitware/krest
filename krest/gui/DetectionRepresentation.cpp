@@ -2,7 +2,7 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/DetectionRepresentation.hpp>
+#include <krest/gui/DetectionRepresentation.hpp>
 
 #include <vital/range/iota.h>
 
@@ -14,7 +14,7 @@
 
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -130,4 +130,4 @@ void DetectionRepresentationPrivate::initializeShader()
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest

@@ -2,18 +2,18 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_gui_CreateDetectionPlayerTool_hpp
-#define sealtk_gui_CreateDetectionPlayerTool_hpp
+#ifndef krest_gui_CreateDetectionPlayerTool_hpp
+#define krest_gui_CreateDetectionPlayerTool_hpp
 
-#include <sealtk/gui/PlayerTool.hpp>
+#include <krest/gui/PlayerTool.hpp>
 
-#include <sealtk/gui/Export.h>
+#include <krest/gui/Export.h>
 
 #include <QRectF>
 
 #include <qtGlobal.h>
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -49,6 +49,6 @@ private:
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

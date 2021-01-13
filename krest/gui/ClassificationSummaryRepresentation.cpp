@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/ClassificationSummaryRepresentation.hpp>
+#include <krest/gui/ClassificationSummaryRepresentation.hpp>
 
-#include <sealtk/core/DataModelTypes.hpp>
+#include <krest/core/DataModelTypes.hpp>
 
 #include <vital/range/indirect.h>
 #include <vital/range/iota.h>
@@ -16,7 +16,7 @@ namespace sc = sealtk::core;
 
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -334,4 +334,4 @@ void ClassificationSummaryRepresentationPrivate::recompute(
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest

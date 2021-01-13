@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_gui_DetectionRepresentation_hpp
-#define sealtk_gui_DetectionRepresentation_hpp
+#ifndef krest_gui_DetectionRepresentation_hpp
+#define krest_gui_DetectionRepresentation_hpp
 
-#include <sealtk/gui/Export.h>
+#include <krest/gui/Export.h>
 
 #include <qtGlobal.h>
 
@@ -19,7 +19,7 @@ class QMatrix4x4;
 class QOpenGLBuffer;
 class QOpenGLFunctions;
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -57,6 +57,6 @@ private:
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

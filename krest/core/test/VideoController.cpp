@@ -2,17 +2,17 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/test/TestCore.hpp>
+#include <krest/test/TestCore.hpp>
 
-#include <sealtk/core/test/TestCommon.hpp>
+#include <krest/core/test/TestCommon.hpp>
 
-#include <sealtk/core/ImageUtils.hpp>
-#include <sealtk/core/KwiverVideoSource.hpp>
-#include <sealtk/core/VideoController.hpp>
-#include <sealtk/core/VideoDistributor.hpp>
-#include <sealtk/core/VideoFrame.hpp>
+#include <krest/core/ImageUtils.hpp>
+#include <krest/core/KwiverVideoSource.hpp>
+#include <krest/core/VideoController.hpp>
+#include <krest/core/VideoDistributor.hpp>
+#include <krest/core/VideoFrame.hpp>
 
-#include <sealtk/util/unique.hpp>
+#include <krest/util/unique.hpp>
 
 #include <vital/algo/video_input.h>
 #include <vital/config/config_block.h>
@@ -31,7 +31,7 @@
 namespace kv = kwiver::vital;
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -298,7 +298,7 @@ void TestVideoController::times()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 // ----------------------------------------------------------------------------
 QTEST_MAIN(sealtk::core::test::TestVideoController)

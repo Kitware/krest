@@ -2,12 +2,12 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_util_unique_hpp
-#define sealtk_util_unique_hpp
+#ifndef krest_util_unique_hpp
+#define krest_util_unique_hpp
 
 #include <memory>
 
-namespace sealtk
+namespace krest
 {
 
 #if __cplusplus < 201402L
@@ -25,6 +25,6 @@ using std::make_unique;
 
 #endif
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

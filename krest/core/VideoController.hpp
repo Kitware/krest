@@ -2,12 +2,12 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_VideoController_hpp
-#define sealtk_core_VideoController_hpp
+#ifndef krest_core_VideoController_hpp
+#define krest_core_VideoController_hpp
 
-#include <sealtk/core/TimeMap.hpp>
+#include <krest/core/TimeMap.hpp>
 
-#include <sealtk/core/Export.h>
+#include <krest/core/Export.h>
 
 #include <qtGlobal.h>
 
@@ -15,7 +15,7 @@
 
 #include <memory>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -66,6 +66,6 @@ private:
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

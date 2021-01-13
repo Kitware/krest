@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/test/TestTracks.hpp>
+#include <krest/core/test/TestTracks.hpp>
 
-#include <sealtk/core/DataModelTypes.hpp>
+#include <krest/core/DataModelTypes.hpp>
 
 #include <vital/range/indirect.h>
 #include <vital/range/iota.h>
@@ -18,7 +18,7 @@ namespace kvr = kwiver::vital::range;
 
 using time_us_t = kv::timestamp::time_t;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -117,4 +117,4 @@ void testTrackData(QAbstractItemModel const& model, kv::track_id_t id,
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

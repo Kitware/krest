@@ -2,11 +2,11 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/test/TestTrackModel.hpp>
+#include <krest/core/test/TestTrackModel.hpp>
 
-#include <sealtk/core/DataModelTypes.hpp>
+#include <krest/core/DataModelTypes.hpp>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -105,4 +105,4 @@ QVariant SimpleTrackModel::data(QModelIndex const& index, int role) const
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

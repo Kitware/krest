@@ -2,11 +2,11 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/IdentityTransform.hpp>
+#include <krest/core/IdentityTransform.hpp>
 
 namespace kv = kwiver::vital;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -26,4 +26,4 @@ kv::transform_2d_sptr IdentityTransform::inverse_() const
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

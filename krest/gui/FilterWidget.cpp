@@ -2,14 +2,14 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/FilterWidget.hpp>
+#include <krest/gui/FilterWidget.hpp>
 #include "ui_FilterWidget.h"
 
 #include <qtScopedValueChange.h>
 
 #include <QVariant>
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -126,4 +126,4 @@ void FilterWidget::setLabel(QString const& text)
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest

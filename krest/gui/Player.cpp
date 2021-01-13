@@ -2,17 +2,17 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/Player.hpp>
+#include <krest/gui/Player.hpp>
 
-#include <sealtk/gui/DetectionRepresentation.hpp>
-#include <sealtk/gui/PlayerTool.hpp>
+#include <krest/gui/DetectionRepresentation.hpp>
+#include <krest/gui/PlayerTool.hpp>
 
-#include <sealtk/core/AutoLevelsTask.hpp>
-#include <sealtk/core/DataModelTypes.hpp>
-#include <sealtk/core/ImageUtils.hpp>
-#include <sealtk/core/ScalarFilterModel.hpp>
+#include <krest/core/AutoLevelsTask.hpp>
+#include <krest/core/DataModelTypes.hpp>
+#include <krest/core/ImageUtils.hpp>
+#include <krest/core/ScalarFilterModel.hpp>
 
-#include <sealtk/util/unique.hpp>
+#include <krest/util/unique.hpp>
 
 #include <vital/range/iota.h>
 
@@ -43,7 +43,7 @@
 namespace kv = kwiver::vital;
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -1603,4 +1603,4 @@ QRectF PlayerPrivate::extents(
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest

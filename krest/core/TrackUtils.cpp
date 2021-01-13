@@ -2,7 +2,7 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/TrackUtils.hpp>
+#include <krest/core/TrackUtils.hpp>
 
 #include <vital/range/indirect.h>
 
@@ -14,7 +14,7 @@
 namespace kv = kwiver::vital;
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -63,4 +63,4 @@ kv::detected_object_sptr createDetection(
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

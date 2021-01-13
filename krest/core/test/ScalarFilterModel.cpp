@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/ScalarFilterModel.hpp>
+#include <krest/core/ScalarFilterModel.hpp>
 
-#include <sealtk/core/AbstractItemModel.hpp>
-#include <sealtk/core/DataModelTypes.hpp>
+#include <krest/core/AbstractItemModel.hpp>
+#include <krest/core/DataModelTypes.hpp>
 
 #include <vital/types/timestamp.h>
 
@@ -35,7 +35,7 @@ template <> char* toString<QSet<int>>(QSet<int> const& set)
 
 } // namespace QTest
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -199,7 +199,7 @@ void TestScalarFilterModel::filtering_data()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 // ----------------------------------------------------------------------------
 QTEST_MAIN(sealtk::core::test::TestScalarFilterModel)

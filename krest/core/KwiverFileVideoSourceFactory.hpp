@@ -2,12 +2,12 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_KwiverFileVideoSourceFactory_hpp
-#define sealtk_core_KwiverFileVideoSourceFactory_hpp
+#ifndef krest_core_KwiverFileVideoSourceFactory_hpp
+#define krest_core_KwiverFileVideoSourceFactory_hpp
 
-#include <sealtk/core/FileVideoSourceFactory.hpp>
+#include <krest/core/FileVideoSourceFactory.hpp>
 
-#include <sealtk/core/Export.h>
+#include <krest/core/Export.h>
 
 #include <vital/config/config_block.h>
 
@@ -16,7 +16,7 @@
 #include <QObject>
 #include <QString>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -52,6 +52,6 @@ private:
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

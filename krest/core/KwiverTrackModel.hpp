@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_KwiverTrackModel_hpp
-#define sealtk_core_KwiverTrackModel_hpp
+#ifndef krest_core_KwiverTrackModel_hpp
+#define krest_core_KwiverTrackModel_hpp
 
-#include <sealtk/core/AbstractItemModel.hpp>
+#include <krest/core/AbstractItemModel.hpp>
 
 #include <vital/types/object_track_set.h>
 
@@ -13,7 +13,7 @@
 
 #include <QSharedDataPointer>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -86,6 +86,6 @@ private:
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

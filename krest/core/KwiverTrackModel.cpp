@@ -2,11 +2,11 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/KwiverTrackModel.hpp>
+#include <krest/core/KwiverTrackModel.hpp>
 
-#include <sealtk/core/DataModelTypes.hpp>
-#include <sealtk/core/TrackUtils.hpp>
-#include <sealtk/core/UnsharedPointer.hpp>
+#include <krest/core/DataModelTypes.hpp>
+#include <krest/core/TrackUtils.hpp>
+#include <krest/core/UnsharedPointer.hpp>
 
 #include <vital/types/object_track_set.h>
 #include <vital/types/track.h>
@@ -25,7 +25,7 @@
 namespace kv = kwiver::vital;
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -690,4 +690,4 @@ KwiverTrack::KwiverTrack(kv::track_sptr&& track)
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

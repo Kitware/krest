@@ -2,16 +2,16 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_gui_ClassificationSummaryRepresentation_hpp
-#define sealtk_gui_ClassificationSummaryRepresentation_hpp
+#ifndef krest_gui_ClassificationSummaryRepresentation_hpp
+#define krest_gui_ClassificationSummaryRepresentation_hpp
 
-#include <sealtk/gui/Export.h>
+#include <krest/gui/Export.h>
 
 #include <qtGlobal.h>
 
 #include <QAbstractItemModel>
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -58,6 +58,6 @@ private:
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

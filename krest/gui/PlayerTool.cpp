@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/PlayerTool.hpp>
+#include <krest/gui/PlayerTool.hpp>
 
-#include <sealtk/gui/Player.hpp>
+#include <krest/gui/Player.hpp>
 
 #include <QByteArray>
 #include <QMouseEvent>
@@ -12,7 +12,7 @@
 #include <QStack>
 #include <QVariant>
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -105,4 +105,4 @@ void PlayerTool::pushProperty(char const* name, QVariant const& value)
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest

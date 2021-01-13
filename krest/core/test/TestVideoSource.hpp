@@ -2,14 +2,14 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_test_TestVideoSource_hpp
-#define sealtk_core_test_TestVideoSource_hpp
+#ifndef krest_core_test_TestVideoSource_hpp
+#define krest_core_test_TestVideoSource_hpp
 
-#include <sealtk/core/VideoMetaData.hpp>
-#include <sealtk/core/VideoProvider.hpp>
-#include <sealtk/core/VideoSource.hpp>
+#include <krest/core/VideoMetaData.hpp>
+#include <krest/core/VideoProvider.hpp>
+#include <krest/core/VideoSource.hpp>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -49,6 +49,6 @@ private:
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

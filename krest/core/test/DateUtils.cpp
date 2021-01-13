@@ -2,14 +2,14 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/DateUtils.hpp>
+#include <krest/core/DateUtils.hpp>
 
 #include <QObject>
 #include <QtTest>
 
 namespace kv = kwiver::vital;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -142,7 +142,7 @@ void TestDateUtils::timeString_data()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 QTEST_MAIN(sealtk::core::test::TestDateUtils)
 #include "DateUtils.moc"

@@ -2,7 +2,7 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/GlobInputDialog.hpp>
+#include <krest/gui/GlobInputDialog.hpp>
 #include "ui_GlobInputDialog.h"
 
 #include <vital/range/iota.h>
@@ -16,7 +16,7 @@
 
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -133,4 +133,4 @@ void GlobInputDialog::setGlobString(QString const& s)
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest

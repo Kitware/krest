@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/test/TestCore.hpp>
+#include <krest/test/TestCore.hpp>
 
-#include <sealtk/core/AutoLevelsTask.hpp>
+#include <krest/core/AutoLevelsTask.hpp>
 
 #include <vital/algo/image_io.h>
 #include <vital/plugin_loader/plugin_manager.h>
@@ -32,7 +32,7 @@ struct LevelPair
 
 Q_DECLARE_METATYPE(LevelPair)
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -154,7 +154,7 @@ void TestAutoLevelsTask::levels_data()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 // ----------------------------------------------------------------------------
 QTEST_MAIN(sealtk::core::test::TestAutoLevelsTask)

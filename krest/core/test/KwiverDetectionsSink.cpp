@@ -2,15 +2,15 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/test/TestCore.hpp>
+#include <krest/test/TestCore.hpp>
 
-#include <sealtk/core/test/TestCommon.hpp>
-#include <sealtk/core/test/TestTrackModel.hpp>
-#include <sealtk/core/test/TestTracks.hpp>
-#include <sealtk/core/test/TestVideoSource.hpp>
+#include <krest/core/test/TestCommon.hpp>
+#include <krest/core/test/TestTrackModel.hpp>
+#include <krest/core/test/TestTracks.hpp>
+#include <krest/core/test/TestVideoSource.hpp>
 
-#include <sealtk/core/KwiverDetectionsSink.hpp>
-#include <sealtk/core/VideoRequest.hpp>
+#include <krest/core/KwiverDetectionsSink.hpp>
+#include <krest/core/VideoRequest.hpp>
 
 #include <QRegularExpression>
 #include <QTemporaryFile>
@@ -20,7 +20,7 @@
 
 namespace kv = kwiver::vital;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -175,7 +175,7 @@ void TestKwiverDetectionsSink::csv()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 // ----------------------------------------------------------------------------
 QTEST_MAIN(sealtk::core::test::TestKwiverDetectionsSink)

@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/KwiverPipelinePortSet.hpp>
+#include <krest/core/KwiverPipelinePortSet.hpp>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -66,4 +66,4 @@ std::string KwiverPipelinePortSet::portName(std::string const& base, int index)
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

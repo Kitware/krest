@@ -2,17 +2,17 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_VideoDistributor_hpp
-#define sealtk_core_VideoDistributor_hpp
+#ifndef krest_core_VideoDistributor_hpp
+#define krest_core_VideoDistributor_hpp
 
-#include <sealtk/core/TimeMap.hpp>
-#include <sealtk/core/VideoFrame.hpp>
+#include <krest/core/TimeMap.hpp>
+#include <krest/core/VideoFrame.hpp>
 
 #include <qtGlobal.h>
 
 #include <QObject>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -60,6 +60,6 @@ private:
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

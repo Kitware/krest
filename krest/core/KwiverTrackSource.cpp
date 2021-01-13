@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/KwiverTrackSource.hpp>
+#include <krest/core/KwiverTrackSource.hpp>
 
-#include <sealtk/core/KwiverTrackModel.hpp>
+#include <krest/core/KwiverTrackModel.hpp>
 
 #include <vital/algo/read_object_track_set.h>
 
@@ -17,7 +17,7 @@
 namespace kv = kwiver::vital;
 namespace kva = kwiver::vital::algo;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -139,4 +139,4 @@ void KwiverTrackSourcePrivate::run()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

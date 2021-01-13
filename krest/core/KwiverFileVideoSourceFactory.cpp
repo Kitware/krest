@@ -2,11 +2,11 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/KwiverFileVideoSourceFactory.hpp>
+#include <krest/core/KwiverFileVideoSourceFactory.hpp>
 
-#include <sealtk/core/KwiverVideoSource.hpp>
+#include <krest/core/KwiverVideoSource.hpp>
 
-#include <sealtk/util/unique.hpp>
+#include <krest/util/unique.hpp>
 
 #include <vital/algo/video_input.h>
 
@@ -21,7 +21,7 @@
 #include <QTextStream>
 #include <QUrlQuery>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -171,4 +171,4 @@ QUrl KwiverFileVideoSourceFactory::applyFilters(
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

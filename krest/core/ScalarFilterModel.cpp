@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/ScalarFilterModel.hpp>
+#include <krest/core/ScalarFilterModel.hpp>
 
-#include <sealtk/core/DataModelTypes.hpp>
+#include <krest/core/DataModelTypes.hpp>
 
 #include <vital/range/indirect.h>
 
@@ -12,7 +12,7 @@
 
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -188,4 +188,4 @@ QVariant ScalarFilterModel::data(QModelIndex const& index, int role) const
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

@@ -2,13 +2,13 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/AbstractItemModel.hpp>
+#include <krest/core/AbstractItemModel.hpp>
 
-#include <sealtk/core/DataModelTypes.hpp>
+#include <krest/core/DataModelTypes.hpp>
 
 #include <algorithm>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -98,4 +98,4 @@ void AbstractItemModel::emitDataChanged(
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

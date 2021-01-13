@@ -2,11 +2,11 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/TimeStamp.hpp>
+#include <krest/core/TimeStamp.hpp>
 
 namespace kv = kwiver::vital;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -186,4 +186,4 @@ bool TimeStamp::operator!=(TimeStamp const& rhs) const
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

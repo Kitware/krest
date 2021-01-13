@@ -2,14 +2,14 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_test_TestCore_hpp
-#define sealtk_test_TestCore_hpp
+#ifndef krest_test_TestCore_hpp
+#define krest_test_TestCore_hpp
 
 #include <QString>
 
 #define SEALTK_TEST_DATA_PATH(f) QStringLiteral(SEALTK_TEST_DATA_DIR "/" f)
 
-namespace sealtk
+namespace krest
 {
 
 namespace test
@@ -22,6 +22,6 @@ static inline QString testDataPath(QString const& path)
 
 } // namespace test
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

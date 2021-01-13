@@ -2,7 +2,7 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/TimeMap.hpp>
+#include <krest/core/TimeMap.hpp>
 
 #include <QObject>
 
@@ -12,7 +12,7 @@ namespace kv = kwiver::vital;
 
 Q_DECLARE_METATYPE(sealtk::core::TimeMap<int>)
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -211,7 +211,7 @@ void TestTimeMap::find_data()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 // ----------------------------------------------------------------------------
 QTEST_MAIN(sealtk::core::test::TestTimeMap)

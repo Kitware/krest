@@ -2,7 +2,7 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/ImageUtils.hpp>
+#include <krest/core/ImageUtils.hpp>
 
 #include <vital/types/image.h>
 
@@ -24,7 +24,7 @@ using PixelTraits = kv::image_pixel_traits;
 
 Q_DECLARE_METATYPE(PixelTraits::pixel_type)
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -350,7 +350,7 @@ void TestImageUtils::imageToTexture_data()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 QTEST_MAIN(sealtk::core::test::TestImageUtils)
 #include "ImageUtils.moc"

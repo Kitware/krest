@@ -2,12 +2,12 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/VideoRequest.hpp>
+#include <krest/core/VideoRequest.hpp>
 
-#include <sealtk/core/VideoFrame.hpp>
-#include <sealtk/core/VideoRequestor.hpp>
+#include <krest/core/VideoFrame.hpp>
+#include <krest/core/VideoRequestor.hpp>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -27,4 +27,4 @@ void VideoRequest::sendReply(VideoFrame&& frame) const
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

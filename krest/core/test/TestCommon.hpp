@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_test_TestCommon_hpp
-#define sealtk_core_test_TestCommon_hpp
+#ifndef krest_core_test_TestCommon_hpp
+#define krest_core_test_TestCommon_hpp
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -20,6 +20,6 @@ void loadKwiverPlugins();
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/DateUtils.hpp>
+#include <krest/core/DateUtils.hpp>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -50,4 +50,4 @@ QString timeString(kwiver::vital::timestamp::time_t time)
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

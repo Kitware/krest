@@ -2,11 +2,11 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/DirectoryListing.hpp>
+#include <krest/core/DirectoryListing.hpp>
 
 #include <QDir>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -124,4 +124,4 @@ void DirectoryListingData::update()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

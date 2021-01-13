@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/FusionModel.hpp>
+#include <krest/gui/FusionModel.hpp>
 
-#include <sealtk/core/DataModelTypes.hpp>
+#include <krest/core/DataModelTypes.hpp>
 
 #include <vital/types/timestamp.h>
 
@@ -19,7 +19,7 @@
 namespace kv = kwiver::vital;
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -604,4 +604,4 @@ bool FusionModelPrivate::setData(
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest

@@ -2,15 +2,15 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_test_TestTrackModel_hpp
-#define sealtk_core_test_TestTrackModel_hpp
+#ifndef krest_core_test_TestTrackModel_hpp
+#define krest_core_test_TestTrackModel_hpp
 
-#include <sealtk/core/test/TestTracks.hpp>
+#include <krest/core/test/TestTracks.hpp>
 
-#include <sealtk/core/AbstractItemModel.hpp>
-#include <sealtk/core/TimeMap.hpp>
+#include <krest/core/AbstractItemModel.hpp>
+#include <krest/core/TimeMap.hpp>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -43,6 +43,6 @@ private:
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

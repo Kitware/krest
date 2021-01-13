@@ -2,16 +2,16 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_DataModelTypes_hpp
-#define sealtk_core_DataModelTypes_hpp
+#ifndef krest_core_DataModelTypes_hpp
+#define krest_core_DataModelTypes_hpp
 
-#include <sealtk/core/Export.h>
+#include <krest/core/Export.h>
 
 #include <qtGlobal.h>
 
 #include <QMetaType>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -129,7 +129,7 @@ QTE_END_META_NAMESPACE()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 Q_DECLARE_OPERATORS_FOR_FLAGS(sealtk::core::ItemTypes)
 

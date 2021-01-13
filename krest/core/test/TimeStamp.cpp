@@ -2,14 +2,14 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/TimeStamp.hpp>
+#include <krest/core/TimeStamp.hpp>
 
 #include <QObject>
 #include <QtTest>
 
 Q_DECLARE_METATYPE(sealtk::core::TimeStamp)
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -270,7 +270,7 @@ COMPARE(lt, <)
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 Q_DECLARE_METATYPE(sealtk::core::test::TimeStampTestData)
 

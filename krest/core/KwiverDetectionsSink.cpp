@@ -2,13 +2,13 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/KwiverDetectionsSink.hpp>
+#include <krest/core/KwiverDetectionsSink.hpp>
 
-#include <sealtk/core/DataModelTypes.hpp>
-#include <sealtk/core/TrackUtils.hpp>
-#include <sealtk/core/TimeMap.hpp>
-#include <sealtk/core/VideoMetaData.hpp>
-#include <sealtk/core/VideoSource.hpp>
+#include <krest/core/DataModelTypes.hpp>
+#include <krest/core/TrackUtils.hpp>
+#include <krest/core/TimeMap.hpp>
+#include <krest/core/VideoMetaData.hpp>
+#include <krest/core/VideoSource.hpp>
 
 #include <vital/algo/detected_object_set_output.h>
 
@@ -26,7 +26,7 @@ namespace kv = kwiver::vital;
 namespace kva = kwiver::vital::algo;
 namespace kvr = kwiver::vital::range;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -171,4 +171,4 @@ void KwiverDetectionsSink::writeData(QUrl const& uri) const
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

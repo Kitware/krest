@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_VideoMetaData_hpp
-#define sealtk_core_VideoMetaData_hpp
+#ifndef krest_core_VideoMetaData_hpp
+#define krest_core_VideoMetaData_hpp
 
-#include <sealtk/core/Export.h>
+#include <krest/core/Export.h>
 
 #include <vital/types/timestamp.h>
 #include <vital/vital_types.h>
@@ -14,7 +14,7 @@
 
 #include <QSharedDataPointer>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -47,6 +47,6 @@ private:
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

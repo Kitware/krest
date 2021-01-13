@@ -2,12 +2,12 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/KwiverVideoSource.hpp>
+#include <krest/core/KwiverVideoSource.hpp>
 
-#include <sealtk/core/TimeMap.hpp>
-#include <sealtk/core/VideoFrame.hpp>
-#include <sealtk/core/VideoProvider.hpp>
-#include <sealtk/core/VideoRequest.hpp>
+#include <krest/core/TimeMap.hpp>
+#include <krest/core/VideoFrame.hpp>
+#include <krest/core/VideoProvider.hpp>
+#include <krest/core/VideoRequest.hpp>
 
 #include <arrows/qt/image_container.h>
 
@@ -22,7 +22,7 @@ namespace kvr = kwiver::vital::range;
 
 using frame_t = kv::timestamp::frame_t;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -200,4 +200,4 @@ kv::timestamp KwiverVideoSourcePrivate::processRequest(
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

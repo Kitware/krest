@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_KwiverPipelinePortSet_hpp
-#define sealtk_core_KwiverPipelinePortSet_hpp
+#ifndef krest_core_KwiverPipelinePortSet_hpp
+#define krest_core_KwiverPipelinePortSet_hpp
 
-#include <sealtk/core/Export.h>
+#include <krest/core/Export.h>
 
 #include <sprokit/processes/adapters/adapter_data_set.h>
 #include <sprokit/processes/adapters/embedded_pipeline.h>
@@ -13,7 +13,7 @@
 #include <string>
 #include <vector>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -85,6 +85,6 @@ void KwiverPipelinePortSet::ensureInput(
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

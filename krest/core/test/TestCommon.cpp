@@ -12,7 +12,7 @@
 
 namespace kv = kwiver::vital;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -156,4 +156,4 @@ void loadKwiverPlugins()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

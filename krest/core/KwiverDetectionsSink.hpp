@@ -2,17 +2,17 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_KwiverDetectionsSink_hpp
-#define sealtk_core_KwiverDetectionsSink_hpp
+#ifndef krest_core_KwiverDetectionsSink_hpp
+#define krest_core_KwiverDetectionsSink_hpp
 
-#include <sealtk/core/AbstractDataSink.hpp>
+#include <krest/core/AbstractDataSink.hpp>
 
 #include <qtGlobal.h>
 
 class QAbstractItemModel;
 class QUrl;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -44,6 +44,6 @@ private:
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

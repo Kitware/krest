@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_test_TestTracks_hpp
-#define sealtk_core_test_TestTracks_hpp
+#ifndef krest_core_test_TestTracks_hpp
+#define krest_core_test_TestTracks_hpp
 
-#include <sealtk/core/TimeMap.hpp>
+#include <krest/core/TimeMap.hpp>
 
 #include <vital/types/track.h>
 
@@ -15,7 +15,7 @@
 class QAbstractItemModel;
 class QModelIndex;
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -75,6 +75,6 @@ auto const track5 = TimeMap<TrackState>{
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

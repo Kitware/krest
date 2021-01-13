@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/test/TestCore.hpp>
+#include <krest/test/TestCore.hpp>
 
-#include <sealtk/core/DirectoryListing.hpp>
+#include <krest/core/DirectoryListing.hpp>
 
 #include <qtEnumerate.h>
 
@@ -13,7 +13,7 @@
 
 #include <QtTest>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -108,7 +108,7 @@ void TestDirectoryListing::listing_data()
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 // ----------------------------------------------------------------------------
 QTEST_MAIN(sealtk::core::test::TestDirectoryListing)

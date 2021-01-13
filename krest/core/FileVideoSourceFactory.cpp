@@ -2,9 +2,9 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/FileVideoSourceFactory.hpp>
+#include <krest/core/FileVideoSourceFactory.hpp>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -42,4 +42,4 @@ void FileVideoSourceFactory::requestVideoSource(void* handle)
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

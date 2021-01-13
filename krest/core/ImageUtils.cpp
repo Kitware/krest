@@ -2,7 +2,7 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/core/ImageUtils.hpp>
+#include <krest/core/ImageUtils.hpp>
 
 #include <arrows/qt/image_container.h>
 
@@ -13,7 +13,7 @@
 #include <QOpenGLTexture>
 #include <QtAlgorithms>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -333,4 +333,4 @@ void SEALTK_CORE_EXPORT imageToTexture(
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest

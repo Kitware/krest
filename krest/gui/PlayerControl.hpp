@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_gui_PlayerControl_hpp
-#define sealtk_gui_PlayerControl_hpp
+#ifndef krest_gui_PlayerControl_hpp
+#define krest_gui_PlayerControl_hpp
 
-#include <sealtk/gui/Export.h>
+#include <krest/gui/Export.h>
 
 #include <qtGlobal.h>
 
@@ -13,7 +13,7 @@
 
 #include <vital/types/timestamp.h>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -82,6 +82,6 @@ private:
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest
 
 #endif

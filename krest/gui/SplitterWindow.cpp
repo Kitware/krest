@@ -2,10 +2,10 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#include <sealtk/gui/SplitterWindow.hpp>
+#include <krest/gui/SplitterWindow.hpp>
 #include "ui_SplitterWindow.h"
 
-namespace sealtk
+namespace krest
 {
 
 namespace gui
@@ -117,4 +117,4 @@ SplitterWindowPrivate::SplitterWindowPrivate(SplitterWindow* parent)
 
 } // namespace gui
 
-} // namespace sealtk
+} // namespace krest

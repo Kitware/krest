@@ -2,14 +2,14 @@
  * 3-Clause License. See top-level LICENSE file or
  * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
 
-#ifndef sealtk_core_VideoFrame_hpp
-#define sealtk_core_VideoFrame_hpp
+#ifndef krest_core_VideoFrame_hpp
+#define krest_core_VideoFrame_hpp
 
-#include <sealtk/core/VideoMetaData.hpp>
+#include <krest/core/VideoMetaData.hpp>
 
 #include <vital/types/image_container.h>
 
-namespace sealtk
+namespace krest
 {
 
 namespace core
@@ -24,6 +24,6 @@ struct VideoFrame
 
 } // namespace core
 
-} // namespace sealtk
+} // namespace krest
 
 #endif
