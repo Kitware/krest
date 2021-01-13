@@ -12,7 +12,7 @@
 #include <QHash>
 #include <QVector>
 
-namespace sc = krest::core;
+namespace kc = krest::core;
 
 namespace kvr = kwiver::vital::range;
 
@@ -206,13 +206,13 @@ void ClassificationSummaryRepresentationPrivate::recompute(
     {
       auto const& index = this->sourceModel->index(row, 0);
 
-      auto const& vd = this->sourceModel->data(index, sc::VisibilityRole);
+      auto const& vd = this->sourceModel->data(index, kc::VisibilityRole);
       if (!vd.toBool())
       {
         continue;
       }
 
-      auto const& cd = this->sourceModel->data(index, sc::ClassificationRole);
+      auto const& cd = this->sourceModel->data(index, kc::ClassificationRole);
       for (auto const& c : cd.toHash() | kvr::indirect)
       {
         if (c.value().toDouble() > 0.0)
