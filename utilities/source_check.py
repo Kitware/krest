@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-# This file is part of SEAL-TK, and is distributed under the OSI-approved BSD
+# This file is part of Krest, and is distributed under the OSI-approved BSD
 # 3-Clause License. See top-level LICENSE file or
-# https://github.com/Kitware/seal-tk/blob/master/LICENSE for details.
+# https://github.com/Kitware/krest/blob/master/LICENSE for details.
 
 import io
 import os.path
@@ -12,9 +12,9 @@ import sys
 
 
 copyright_notice = \
-r"""This file is part of SEAL-TK, and is distributed under the OSI-approved BSD
+r"""This file is part of Krest, and is distributed under the OSI-approved BSD
 3-Clause License\. See top-level LICENSE file or
-https://github\.com/Kitware/seal-tk/blob/master/LICENSE for details\."""
+https://github\.com/Kitware/krest/blob/master/LICENSE for details\."""
 
 copyright_notice_cpp_re = "^/\* " + copyright_notice.replace("\n", "\n \* ") \
     + " \*/\n\n"
@@ -64,11 +64,11 @@ class SourceFile:
             return False
 
     def is_cpp_source(self):
-        return filename_components(self.filename)[0] == "sealtk" and \
+        return filename_components(self.filename)[0] == "krest" and \
             matches(self.filename, r"\.cpp$")
 
     def is_cpp_header(self):
-        return filename_components(self.filename)[0] == "sealtk" and \
+        return filename_components(self.filename)[0] == "krest" and \
             matches(self.filename, r"\.(hpp|h\.in)$")
 
     def is_python(self):
@@ -124,8 +124,8 @@ class SourceFile:
                 .replace(".", "_")
             if matches(self.filename, r"\.h\.in$"):
                 identifier = identifier[:-3]
-            pattern = r"^([^\n]*\n){3}\n#ifndef sealtk_" + identifier + \
-                r"\n#define sealtk_" + identifier + r"\n.*\n#endif\n\Z"
+            pattern = r"^([^\n]*\n){3}\n#ifndef krest_" + identifier + \
+                r"\n#define krest_" + identifier + r"\n.*\n#endif\n\Z"
             assert matches(self.contents(), pattern)
 
     def test_line_length(self):

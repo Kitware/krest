@@ -1,0 +1,62 @@
+/* This file is part of Krest, and is distributed under the OSI-approved BSD
+ * 3-Clause License. See top-level LICENSE file or
+ * https://github.com/Kitware/krest/blob/master/LICENSE for details. */
+
+#ifndef krest_gui_DetectionRepresentation_hpp
+#define krest_gui_DetectionRepresentation_hpp
+
+#include <krest/gui/Export.h>
+
+#include <qtGlobal.h>
+
+#include <QScopedPointer>
+#include <QVector>
+
+#include <functional>
+
+class QColor;
+class QMatrix4x4;
+class QOpenGLBuffer;
+class QOpenGLFunctions;
+
+namespace krest
+{
+
+namespace gui
+{
+
+class DetectionRepresentationPrivate;
+
+// ============================================================================
+struct DetectionInfo
+{
+  qint64 id;
+  int first; // first index in vertex buffer of this detection
+  int count; // number of indices used for this detection
+};
+
+// ============================================================================
+class KREST_GUI_EXPORT DetectionRepresentation
+{
+public:
+  DetectionRepresentation();
+  ~DetectionRepresentation();
+
+  void setColorFunction(std::function<QColor (qint64)> const& function);
+
+  void drawDetections(
+    QOpenGLFunctions* functions, QMatrix4x4 const& transform,
+    QOpenGLBuffer& vertexBuffer, QVector<DetectionInfo> const& indices);
+
+protected:
+  QTE_DECLARE_PRIVATE(DetectionRepresentation)
+
+private:
+  QTE_DECLARE_PRIVATE_RPTR(DetectionRepresentation)
+};
+
+} // namespace gui
+
+} // namespace krest
+
+#endif

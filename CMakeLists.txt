@@ -1,9 +1,9 @@
-# This file is part of SEAL-TK, and is distributed under the OSI-approved BSD
+# This file is part of Krest, and is distributed under the OSI-approved BSD
 # 3-Clause License. See top-level LICENSE file or
-# https://github.com/Kitware/seal-tk/blob/master/LICENSE for details.
+# https://github.com/Kitware/krest/blob/master/LICENSE for details.
 
 cmake_minimum_required(VERSION 3.11)
-project(sealtk
+project(krest
   VERSION 0.1
   LANGUAGES CXX
   )
@@ -11,7 +11,7 @@ project(sealtk
 include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
 
-set(sealtk_BUILD_LIBDIR "${PROJECT_BINARY_DIR}/${CMAKE_INSTALL_LIBDIR}")
+set(krest_BUILD_LIBDIR "${PROJECT_BINARY_DIR}/${CMAKE_INSTALL_LIBDIR}")
 
 list(APPEND CMAKE_MODULE_PATH
   "${PROJECT_SOURCE_DIR}/cmake"
@@ -56,36 +56,36 @@ if(NOT CMAKE_VERSION VERSION_LESS 3.12)
   endif()
 endif()
 
-add_subdirectory(sealtk)
+add_subdirectory(krest)
 
-export(EXPORT sealtk
-  NAMESPACE sealtk::
-  FILE "${sealtk_BUILD_LIBDIR}/cmake/sealtk/sealtk-targets.cmake"
+export(EXPORT krest
+  NAMESPACE krest::
+  FILE "${krest_BUILD_LIBDIR}/cmake/krest/krest-targets.cmake"
   )
 
-install(EXPORT sealtk
-  NAMESPACE sealtk::
-  DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/sealtk"
-  FILE "sealtk-targets.cmake"
+install(EXPORT krest
+  NAMESPACE krest::
+  DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/krest"
+  FILE "krest-targets.cmake"
   COMPONENT Development
   )
 
 write_basic_package_version_file(
-  "${sealtk_BUILD_LIBDIR}/cmake/sealtk/sealtk-config-version.cmake"
+  "${krest_BUILD_LIBDIR}/cmake/krest/krest-config-version.cmake"
   VERSION ${PROJECT_VERSION}
   COMPATIBILITY SameMajorVersion
   )
 
 configure_package_config_file(
-  "${PROJECT_SOURCE_DIR}/cmake/sealtk-config.cmake.in"
-  "${sealtk_BUILD_LIBDIR}/cmake/sealtk/sealtk-config.cmake"
-  INSTALL_DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/sealtk"
+  "${PROJECT_SOURCE_DIR}/cmake/krest-config.cmake.in"
+  "${krest_BUILD_LIBDIR}/cmake/krest/krest-config.cmake"
+  INSTALL_DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/krest"
   )
 
 install(FILES
-  "${sealtk_BUILD_LIBDIR}/cmake/sealtk/sealtk-config.cmake"
-  "${sealtk_BUILD_LIBDIR}/cmake/sealtk/sealtk-config-version.cmake"
-  DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/sealtk"
+  "${krest_BUILD_LIBDIR}/cmake/krest/krest-config.cmake"
+  "${krest_BUILD_LIBDIR}/cmake/krest/krest-config-version.cmake"
+  DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/krest"
   COMPONENT Development
   )
 

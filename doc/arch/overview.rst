@@ -2,7 +2,7 @@
  Overview
 ==========
 
-SEAL-TK is designed to provide a flexible framework
+Krest is designed to provide a flexible framework
 for creating GUI visualization and analysis applications
 for computer vision tools and algorithms.
 Its overall design is based on lessons learned
@@ -22,7 +22,7 @@ Particular design goals include:
   - The framework should support multiple associated imagery (video) sources
     within a single data set.
 
-SEAL-TK attempts to follow the MVF (model, view, filter) design paradigm.
+Krest attempts to follow the MVF (model, view, filter) design paradigm.
 Data sources are designed as independent data models,
 which can be independently channeled to multiple views,
 moderated by multiple controllers and/or filters.

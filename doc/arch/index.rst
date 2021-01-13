@@ -1,10 +1,9 @@
-======================
- SEAL-TK Architecture
-======================
+====================
+ Krest Architecture
+====================
 
 This collection of documents attempts to describe
-the internal architecture of SEAL-TK
-at a high level.
+the internal architecture of Krest at a high level.
 
 Table of Contents
 -----------------

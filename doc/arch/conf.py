@@ -1,6 +1,6 @@
-# This file is part of SEAL-TK, and is distributed under the OSI-approved BSD
+# This file is part of Krest, and is distributed under the OSI-approved BSD
 # 3-Clause License. See top-level LICENSE file or
-# https://github.com/Kitware/seal-tk/blob/master/LICENSE for details.
+# https://github.com/Kitware/krest/blob/master/LICENSE for details.
 
 # -*- coding: utf-8 -*-
 #
@@ -24,7 +24,7 @@ import datetime
 
 # -- Project information -----------------------------------------------------
 
-project = u'SEAL-TK Architecture'
+project = u'Krest Architecture'
 copyright = u'{} Kitware, Inc.'.format(datetime.datetime.now().year)
 author = u'Kitware, Inc.'
 
