@@ -3,4 +3,4 @@
 :: https://github.com/Kitware/krest/blob/master/LICENSE for details.
 
 set KWIVER_PLUGIN_PATH=^
-  "@sealtk_BUILD_LIBDIR@/kwiver/modules;%KWIVER_PLUGIN_PATH%"
+  "@krest_BUILD_LIBDIR@/kwiver/modules;%KWIVER_PLUGIN_PATH%"

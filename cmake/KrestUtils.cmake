@@ -20,16 +20,16 @@ function(qt5_discover_tests test_name target)
     "${test_output_file}")
 endfunction()
 
-function(sealtk_parse_name name suffix_var)
-  if(NOT name MATCHES "^sealtk::([a-zA-Z0-9_]+)$")
+function(krest_parse_name name suffix_var)
+  if(NOT name MATCHES "^krest::([a-zA-Z0-9_]+)$")
     message(FATAL_ERROR "Target name must be of the form "
-      "sealtk::<name>")
+      "krest::<name>")
   endif()
   set(${suffix_var} "${CMAKE_MATCH_1}" PARENT_SCOPE)
 endfunction()
 
-function(sealtk_add_library name)
-  sealtk_parse_name(${name} suffix)
+function(krest_add_library name)
+  krest_parse_name(${name} suffix)
 
   set(sal_multi
     SOURCES
@@ -68,7 +68,7 @@ function(sealtk_add_library name)
       RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/${CMAKE_INSTALL_BINDIR}"
       LIBRARY_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/${CMAKE_INSTALL_LIBDIR}"
       ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/${CMAKE_INSTALL_LIBDIR}"
-      OUTPUT_NAME "sealtk_${suffix}"
+      OUTPUT_NAME "krest_${suffix}"
       )
 
     target_link_libraries(${suffix}
@@ -95,14 +95,14 @@ function(sealtk_add_library name)
       ${sal_INTERFACE_INCLUDE_DIRECTORIES}
     )
 
-  add_library(sealtk::${suffix} ALIAS ${suffix})
+  add_library(krest::${suffix} ALIAS ${suffix})
 
   if(sal_EXPORT_HEADER)
     if(NOT IS_ABSOLUTE "${sal_EXPORT_HEADER}")
       set(sal_EXPORT_HEADER "${CMAKE_CURRENT_BINARY_DIR}/${sal_EXPORT_HEADER}")
     endif()
     generate_export_header(${suffix}
-      BASE_NAME sealtk_${suffix}
+      BASE_NAME krest_${suffix}
       EXPORT_FILE_NAME "${sal_EXPORT_HEADER}"
       )
   endif()
@@ -112,7 +112,7 @@ function(sealtk_add_library name)
       "${PROJECT_SOURCE_DIR}"
       "${CMAKE_CURRENT_SOURCE_DIR}"
       )
-    install(TARGETS ${suffix} EXPORT sealtk
+    install(TARGETS ${suffix} EXPORT krest
       RUNTIME COMPONENT Runtime DESTINATION "${CMAKE_INSTALL_BINDIR}"
       LIBRARY COMPONENT Runtime DESTINATION "${CMAKE_INSTALL_LIBDIR}"
       ARCHIVE COMPONENT Development DESTINATION "${CMAKE_INSTALL_LIBDIR}"
@@ -128,8 +128,8 @@ function(sealtk_add_library name)
   endif()
 endfunction()
 
-function(sealtk_add_kwiver_plugin name)
-  sealtk_parse_name(${name} suffix)
+function(krest_add_kwiver_plugin name)
+  krest_parse_name(${name} suffix)
 
   set(sakp_multi
     SOURCES
@@ -149,14 +149,14 @@ function(sealtk_add_kwiver_plugin name)
     )
 
   add_library(${suffix} MODULE ${sakp_SOURCES} ${sakp_HEADERS})
-  add_library(sealtk::${suffix} ALIAS ${suffix})
+  add_library(krest::${suffix} ALIAS ${suffix})
 
   set_target_properties(${suffix} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY
       "${PROJECT_BINARY_DIR}/${CMAKE_INSTALL_LIBDIR}/kwiver/modules"
     LIBRARY_OUTPUT_DIRECTORY
       "${PROJECT_BINARY_DIR}/${CMAKE_INSTALL_LIBDIR}/kwiver/modules"
-    OUTPUT_NAME "sealtk_${suffix}"
+    OUTPUT_NAME "krest_${suffix}"
     PREFIX ""
     )
 
@@ -184,7 +184,7 @@ function(sealtk_add_kwiver_plugin name)
         )
     endif()
     generate_export_header(${suffix}
-      BASE_NAME sealtk_${suffix}
+      BASE_NAME krest_${suffix}
       EXPORT_FILE_NAME "${sakp_EXPORT_HEADER}"
       )
   endif()
@@ -194,7 +194,7 @@ function(sealtk_add_kwiver_plugin name)
       "${PROJECT_SOURCE_DIR}"
       "${CMAKE_CURRENT_SOURCE_DIR}"
       )
-    install(TARGETS ${suffix} EXPORT sealtk
+    install(TARGETS ${suffix} EXPORT krest
       RUNTIME COMPONENT Runtime DESTINATION
         "${CMAKE_INSTALL_LIBDIR}/kwiver/modules"
       LIBRARY COMPONENT Runtime DESTINATION
@@ -211,8 +211,8 @@ function(sealtk_add_kwiver_plugin name)
   endif()
 endfunction()
 
-function(sealtk_add_executable name)
-  sealtk_parse_name(${name} suffix)
+function(krest_add_executable name)
+  krest_parse_name(${name} suffix)
 
   set(sae_multi
     SOURCES
@@ -231,7 +231,7 @@ function(sealtk_add_executable name)
     )
 
   add_executable(${suffix} ${sae_SOURCES})
-  add_executable(sealtk::${suffix} ALIAS ${suffix})
+  add_executable(krest::${suffix} ALIAS ${suffix})
 
   set_target_properties(${suffix} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/${CMAKE_INSTALL_BINDIR}"
@@ -255,7 +255,7 @@ function(sealtk_add_executable name)
     )
 
   if(NOT sae_NOINSTALL)
-    install(TARGETS ${suffix} EXPORT sealtk
+    install(TARGETS ${suffix} EXPORT krest
       RUNTIME COMPONENT Runtime DESTINATION "${CMAKE_INSTALL_BINDIR}"
       )
   endif()
@@ -265,7 +265,7 @@ function(sealtk_add_executable name)
   endif()
 endfunction()
 
-function(sealtk_add_test name)
+function(krest_add_test name)
   set(sat_multi
     SOURCES
     PRIVATE_LINK_LIBRARIES
@@ -297,13 +297,13 @@ function(sealtk_add_test name)
     )
 
   target_compile_definitions(test_${name}
-    PRIVATE "SEALTK_TEST_DATA_DIR=\"${CMAKE_CURRENT_SOURCE_DIR}/data\""
+    PRIVATE "KREST_TEST_DATA_DIR=\"${CMAKE_CURRENT_SOURCE_DIR}/data\""
     )
 
   qt5_discover_tests(${name} test_${name})
 endfunction()
 
-function(sealtk_add_data target)
+function(krest_add_data target)
   cmake_parse_arguments(sad "" "FROM" "FILES" ${ARGN})
 
   if (NOT sad_FROM STREQUAL "")

@@ -2,9 +2,9 @@
 # 3-Clause License. See top-level LICENSE file or
 # https://github.com/Kitware/krest/blob/master/LICENSE for details.
 
-include(SEALTKUtils)
+include(KrestUtils)
 
-sealtk_add_library(sealtk::util
+krest_add_library(krest::util
   TYPE INTERFACE
   HEADERS
     unique.hpp

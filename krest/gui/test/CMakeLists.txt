@@ -2,22 +2,22 @@
 # 3-Clause License. See top-level LICENSE file or
 # https://github.com/Kitware/krest/blob/master/LICENSE for details.
 
-include(SEALTKUtils)
+include(KrestUtils)
 
-sealtk_add_test(AbstractItemRepresentation
+krest_add_test(AbstractItemRepresentation
   SOURCES
     AbstractItemRepresentation.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::gui
-    sealtk::core
+    krest::gui
+    krest::core
   )
 
-sealtk_add_test(FusionModel
+krest_add_test(FusionModel
   SOURCES
     FusionModel.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::gui
-    sealtk::core
+    krest::gui
+    krest::core
   )

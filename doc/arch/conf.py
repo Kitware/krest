@@ -24,7 +24,7 @@ import datetime
 
 # -- Project information -----------------------------------------------------
 
-project = u'SEAL-TK Architecture'
+project = u'Krest Architecture'
 copyright = u'{} Kitware, Inc.'.format(datetime.datetime.now().year)
 author = u'Kitware, Inc.'
 

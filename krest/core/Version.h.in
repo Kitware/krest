@@ -5,8 +5,8 @@
 #ifndef sealtk_core_Version_h
 #define sealtk_core_Version_h
 
-#define SEALTK_VERSION "@SEALTK_VERSION@"
+#define KREST_VERSION "@KREST_VERSION@"
 
-#define SEALTK_Q_VERSION QStringLiteral(SEALTK_VERSION)
+#define KREST_Q_VERSION QStringLiteral(KREST_VERSION)
 
 #endif

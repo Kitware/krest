@@ -2,7 +2,7 @@
  Video Requests
 ================
 
-SEAL-TK uses a request-response mechanism
+Krest uses a request-response mechanism
 for obtaining video data from video :doc:`data-sources`.
 This mechanism is designed to permit a thread safe,
 many-to-many mapping between video sources and consumers.

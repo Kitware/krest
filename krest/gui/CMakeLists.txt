@@ -2,9 +2,9 @@
 # 3-Clause License. See top-level LICENSE file or
 # https://github.com/Kitware/krest/blob/master/LICENSE for details.
 
-include(SEALTKUtils)
+include(KrestUtils)
 
-sealtk_add_library(sealtk::gui
+krest_add_library(krest::gui
   SOURCES
     AbstractItemRepresentation.cpp
     ClassificationSummaryRepresentation.cpp
@@ -37,7 +37,7 @@ sealtk_add_library(sealtk::gui
     SplitterWindow.hpp
 
   PUBLIC_LINK_LIBRARIES
-    sealtk::core
+    krest::core
 
   PRIVATE_LINK_LIBRARIES
     Qt5::Concurrent

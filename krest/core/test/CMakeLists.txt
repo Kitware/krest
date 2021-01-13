@@ -2,9 +2,9 @@
 # 3-Clause License. See top-level LICENSE file or
 # https://github.com/Kitware/krest/blob/master/LICENSE for details.
 
-include(SEALTKUtils)
+include(KrestUtils)
 
-sealtk_add_library(sealtk::core_test_common
+krest_add_library(krest::core_test_common
   TYPE STATIC
   NOINSTALL
 
@@ -19,126 +19,126 @@ sealtk_add_library(sealtk::core_test_common
     qtExtensionsHeaders
     Qt5::Core
     Qt5::Test
-    sealtk::core
+    krest::core
     kwiver::vital
     kwiver::vital_algo
   )
 
-sealtk_add_test(KwiverDetectionsSink
+krest_add_test(KwiverDetectionsSink
   SOURCES
     KwiverDetectionsSink.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
-    sealtk::core_test_common
+    krest::core
+    krest::core_test_common
   )
 
-sealtk_add_test(KwiverTracksSink
+krest_add_test(KwiverTracksSink
   SOURCES
     KwiverTracksSink.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
-    sealtk::core_test_common
+    krest::core
+    krest::core_test_common
   )
 
-sealtk_add_test(KwiverPipelineWorker
+krest_add_test(KwiverPipelineWorker
   SOURCES
     KwiverPipelineWorker.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
-    sealtk::core_test_common
+    krest::core
+    krest::core_test_common
   )
 
-sealtk_add_test(KwiverTrackModel
+krest_add_test(KwiverTrackModel
   SOURCES
     KwiverTrackModel.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
-    sealtk::core_test_common
+    krest::core
+    krest::core_test_common
   )
 
-sealtk_add_test(KwiverTrackSource
+krest_add_test(KwiverTrackSource
   SOURCES
     KwiverTrackSource.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
-    sealtk::core_test_common
+    krest::core
+    krest::core_test_common
   )
 
-sealtk_add_test(KwiverVideoSource
+krest_add_test(KwiverVideoSource
   SOURCES
     KwiverVideoSource.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
-    sealtk::core_test_common
+    krest::core
+    krest::core_test_common
   )
 
-sealtk_add_test(VideoController
+krest_add_test(VideoController
   SOURCES
     VideoController.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
-    sealtk::core_test_common
+    krest::core
+    krest::core_test_common
   )
 
-sealtk_add_test(ImageUtils
+krest_add_test(ImageUtils
   SOURCES
     ImageUtils.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
+    krest::core
   )
 
-sealtk_add_test(AutoLevelsTask
+krest_add_test(AutoLevelsTask
   SOURCES
     AutoLevelsTask.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
+    krest::core
   )
 
-sealtk_add_test(DateUtils
+krest_add_test(DateUtils
   SOURCES
     DateUtils.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
+    krest::core
   )
 
-sealtk_add_test(DirectoryListing
+krest_add_test(DirectoryListing
   SOURCES
     DirectoryListing.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
+    krest::core
   )
 
-sealtk_add_test(ScalarFilterModel
+krest_add_test(ScalarFilterModel
   SOURCES
     ScalarFilterModel.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
+    krest::core
   )
 
-sealtk_add_test(TimeMap
+krest_add_test(TimeMap
   SOURCES
     TimeMap.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
+    krest::core
   )
 
-sealtk_add_test(TimeStamp
+krest_add_test(TimeStamp
   SOURCES
     TimeStamp.cpp
 
   PRIVATE_LINK_LIBRARIES
-    sealtk::core
+    krest::core
   )

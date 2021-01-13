@@ -3474,7 +3474,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/document-open.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/document-open.png"
      transform="translate(0,288)"
      id="22_document-open"
      inkscape:label="#document-open">
@@ -3505,7 +3505,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/document-open.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/document-open.png"
      transform="matrix(0.72639225,0,0,0.72639225,0,272.75545)"
      id="16_document-open"
      inkscape:label="#document-open">
@@ -3536,7 +3536,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/document-save.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/document-save.png"
      inkscape:label="#document-save"
      id="22_document-save"
      transform="translate(24,288)">
@@ -3567,7 +3567,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/document-save.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/document-save.png"
      inkscape:label="#document-save"
      id="16_document-save"
      transform="matrix(0.72639225,0,0,0.72639225,24,272.75545)">
@@ -3684,7 +3684,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/application-exit.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/application-exit.png"
      inkscape:label="#application-exit"
      id="22_application-exit"
      transform="translate(104,288)">
@@ -3718,7 +3718,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/application-exit.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/application-exit.png"
      transform="translate(104,264)"
      inkscape:label="#application-exit"
      id="16_application-exit">
@@ -3940,7 +3940,7 @@
      transform="translate(176,288)"
      id="22_configure"
      inkscape:label="#configure"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/configure.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/configure.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -4003,7 +4003,7 @@
      transform="matrix(0.72727273,0,0,0.72727273,176,272.72727)"
      id="16_configure"
      inkscape:label="#configure"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/configure.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/configure.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -4780,7 +4780,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/edit-amend.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/edit-amend.png"
      inkscape:label="#edit-amend"
      id="22_edit-amend">
     <rect
@@ -4847,7 +4847,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/edit-amend.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/edit-amend.png"
      inkscape:label="#edit-amend"
      id="16_edit-amend">
     <rect
@@ -4987,7 +4987,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/dialog-ok.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/dialog-ok.png"
      transform="translate(64,232)"
      id="22_dialog-ok"
      inkscape:label="#dialog-ok">
@@ -5008,7 +5008,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/dialog-ok.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/dialog-ok.png"
      inkscape:label="#dialog-ok"
      id="16_dialog-ok"
      transform="translate(64,208)">
@@ -5029,7 +5029,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/dialog-ok-apply.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/dialog-ok-apply.png"
      inkscape:label="#dialog-ok-apply"
      id="22_dialog-ok-apply"
      transform="translate(88,232)">
@@ -5050,7 +5050,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/dialog-ok-apply.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/dialog-ok-apply.png"
      transform="translate(88,208)"
      id="16_dialog-ok-apply"
      inkscape:label="#dialog-ok-apply">
@@ -5071,7 +5071,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/dialog-cancel.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/dialog-cancel.png"
      transform="translate(112,232)"
      id="22_dialog-cancel"
      inkscape:label="#dialog-cancel">
@@ -5091,7 +5091,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/dialog-cancel.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/dialog-cancel.png"
      inkscape:label="#dialog-cancel"
      id="16_dialog-cancel"
      transform="matrix(0.72727273,0,0,0.72727273,112,216.72727)">
@@ -5113,7 +5113,7 @@
      transform="translate(136,232)"
      id="22_view-refresh"
      inkscape:label="#view-refresh"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/view-refresh.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/view-refresh.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -5134,7 +5134,7 @@
      inkscape:label="#view-refresh"
      id="16_view-refresh"
      transform="translate(136,208)"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/view-refresh.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/view-refresh.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -5154,7 +5154,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/dialog-close.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/dialog-close.png"
      transform="translate(160,232)"
      id="22_dialog-close"
      inkscape:label="#dialog-close">
@@ -5181,7 +5181,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/dialog-close.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/dialog-close.png"
      id="16_dialog-close"
      inkscape:label="#dialog-close"
      transform="translate(160,208)">
@@ -5281,7 +5281,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/edit-delete.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/edit-delete.png"
      transform="translate(264,232)"
      id="22_edit-delete"
      inkscape:label="#edit-delete">
@@ -5302,7 +5302,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/edit-delete.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/edit-delete.png"
      inkscape:label="#edit-delete"
      id="16_edit-delete"
      transform="translate(264,208)">
@@ -5323,7 +5323,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/list-add.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/list-add.png"
      inkscape:label="#list-add"
      transform="translate(56)"
      id="22_list-add">
@@ -5344,7 +5344,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/list-add.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/list-add.png"
      transform="translate(288,208)"
      id="16_list-add"
      inkscape:label="#list-add">
@@ -5365,7 +5365,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/list-remove.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/list-remove.png"
      inkscape:label="#list-remove"
      transform="translate(56)"
      id="22_list-remove">
@@ -5386,7 +5386,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/list-remove.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/list-remove.png"
      inkscape:label="#list-remove"
      id="16_list-remove"
      transform="translate(312,208)">
@@ -5407,7 +5407,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/edit-clear.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/edit-clear.png"
      transform="translate(336,208)"
      id="16_edit-clear"
      inkscape:label="#edit-clear">
@@ -5569,7 +5569,7 @@
   <g
      id="22_go-down"
      inkscape:label="#go-down"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/go-down.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/go-down.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -5589,7 +5589,7 @@
   <g
      id="16_go-down"
      inkscape:label="#go-down"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/go-down.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/go-down.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -5609,7 +5609,7 @@
   <g
      id="22_go-up"
      inkscape:label="#go-up"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/go-up.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/go-up.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -5629,7 +5629,7 @@
   <g
      id="16_go-up"
      inkscape:label="#go-up"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/go-up.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/go-up.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -5649,7 +5649,7 @@
   <g
      id="22_go-previous"
      inkscape:label="#go-previous"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/go-previous.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/go-previous.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -5669,7 +5669,7 @@
   <g
      id="16_go-previous"
      inkscape:label="#go-previous"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/go-previous.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/go-previous.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -5689,7 +5689,7 @@
   <g
      id="22_go-next"
      inkscape:label="#go-next"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/go-next.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/go-next.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -5709,7 +5709,7 @@
   <g
      id="16_go-next"
      inkscape:label="#go-next"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/go-next.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/go-next.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -6107,7 +6107,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/media-skip-backward.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/media-skip-backward.png"
      transform="translate(208,176)"
      id="22_media-skip-backward"
      inkscape:label="#media-skip-backward">
@@ -6135,7 +6135,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/media-skip-backward.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/media-skip-backward.png"
      transform="matrix(0.72727273,0,0,0.72727273,208,160.72727)"
      id="16_media-skip-backward"
      inkscape:label="#media-skip-backward">
@@ -6163,7 +6163,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/media-skip-forward.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/media-skip-forward.png"
      inkscape:label="#media-skip-forward"
      id="22_media-skip-forward"
      transform="translate(232,176)">
@@ -6191,7 +6191,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/media-skip-forward.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/media-skip-forward.png"
      inkscape:label="#media-skip-forward"
      id="16_media-skip-forward"
      transform="matrix(0.72727273,0,0,0.72727273,232,160.72727)">
@@ -6219,7 +6219,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/media-step-backward.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/media-step-backward.png"
      inkscape:label="#media-step-backward"
      id="22_media-step-backward"
      transform="translate(256,176)">
@@ -6247,7 +6247,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/media-step-backward.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/media-step-backward.png"
      inkscape:label="#media-step-backward"
      id="16_media-step-backward"
      transform="matrix(0.72727273,0,0,0.72727273,256,160.72727)">
@@ -6275,7 +6275,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/media-step-forward.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/media-step-forward.png"
      transform="translate(280,176)"
      id="22_media-step-forward"
      inkscape:label="#media-step-forward">
@@ -6303,7 +6303,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/media-step-forward.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/media-step-forward.png"
      transform="matrix(0.72727273,0,0,0.72727273,280,160.72727)"
      id="16_media-step-forward"
      inkscape:label="#media-step-forward">
@@ -6332,7 +6332,7 @@
      inkscape:label="#zoom-fit"
      id="22_zoom-fit"
      transform="translate(320,176)"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/zoom-fit.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/zoom-fit.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <path
@@ -6390,7 +6390,7 @@
      inkscape:label="#zoom-fit"
      id="16_zoom-fit"
      transform="matrix(0.72727273,0,0,0.72727273,320,160.72727)"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/zoom-fit.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/zoom-fit.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -6447,7 +6447,7 @@
   <g
      id="22_zoom-in"
      inkscape:label="#zoom-in"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/zoom-in.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/zoom-in.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -6486,7 +6486,7 @@
   <g
      id="16_zoom-in"
      inkscape:label="#zoom-in"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/zoom-in.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/zoom-in.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -6525,7 +6525,7 @@
   <g
      id="22_zoom-out"
      inkscape:label="#zoom-out"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/zoom-out.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/zoom-out.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -6564,7 +6564,7 @@
   <g
      id="16_zoom-out"
      inkscape:label="#zoom-out"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/zoom-out.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/zoom-out.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -6603,7 +6603,7 @@
   <g
      id="22_zoom-image"
      inkscape:label="#zoom-image"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/zoom-image.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/zoom-image.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -6685,7 +6685,7 @@
   <g
      id="16_zoom-image"
      inkscape:label="#zoom-image"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/zoom-image.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/zoom-image.png"
      inkscape:export-xdpi="192"
      inkscape:export-ydpi="192">
     <rect
@@ -6770,7 +6770,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/zoom-link.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/zoom-link.png"
      inkscape:label="#zoom-link"
      id="22_zoom-link">
     <rect
@@ -6801,7 +6801,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/zoom-link.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/zoom-link.png"
      inkscape:label="#zoom-link"
      id="16_zoom-link">
     <rect
@@ -6832,7 +6832,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/document-open-video.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/document-open-video.png"
      transform="translate(0,120)"
      id="22_document-open-video"
      inkscape:label="#document-open-video">
@@ -6947,7 +6947,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/document-open-video.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/document-open-video.png"
      transform="matrix(0.72639225,0,0,0.72639225,0,104.75545)"
      id="16_document-open-video"
      inkscape:label="#document-open-video">
@@ -7042,7 +7042,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/22x22@2x/document-open-detections.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/22x22@2x/document-open-detections.png"
      inkscape:label="#document-open-detections"
      id="22_document-open-detections"
      transform="translate(24,120)">
@@ -7086,7 +7086,7 @@
   <g
      inkscape:export-ydpi="192"
      inkscape:export-xdpi="192"
-     inkscape:export-filename="/usr/local/src/matthew/work/sealtk/sealtk/gui/resources/icons/krest/16x16@2x/document-open-detections.png"
+     inkscape:export-filename="/usr/local/src/matthew/work/krest/krest/gui/resources/icons/krest/16x16@2x/document-open-detections.png"
      inkscape:label="#document-open-detections"
      id="16_document-open-detections"
      transform="matrix(0.72639225,0,0,0.72639225,24,104.75545)">
