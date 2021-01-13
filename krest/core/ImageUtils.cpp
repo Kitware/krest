@@ -206,7 +206,7 @@ QImage imageContainerToQImage(
 }
 
 // ----------------------------------------------------------------------------
-void SEALTK_CORE_EXPORT imageToTexture(
+void KREST_CORE_EXPORT imageToTexture(
   QOpenGLTexture& texture,
   kwiver::vital::image_container_sptr const& imageContainer)
 {

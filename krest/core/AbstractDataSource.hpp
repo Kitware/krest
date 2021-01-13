@@ -21,7 +21,7 @@ namespace core
 {
 
 // ============================================================================
-class SEALTK_CORE_EXPORT AbstractDataSource : public QObject
+class KREST_CORE_EXPORT AbstractDataSource : public QObject
 {
   Q_OBJECT
 

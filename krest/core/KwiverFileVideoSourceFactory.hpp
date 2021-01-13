@@ -26,7 +26,7 @@ class VideoSource;
 
 class KwiverFileVideoSourceFactoryPrivate;
 
-class SEALTK_CORE_EXPORT KwiverFileVideoSourceFactory
+class KREST_CORE_EXPORT KwiverFileVideoSourceFactory
   : public FileVideoSourceFactory
 {
   Q_OBJECT

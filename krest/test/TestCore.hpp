@@ -7,7 +7,7 @@
 
 #include <QString>
 
-#define SEALTK_TEST_DATA_PATH(f) QStringLiteral(SEALTK_TEST_DATA_DIR "/" f)
+#define KREST_TEST_DATA_PATH(f) QStringLiteral(KREST_TEST_DATA_DIR "/" f)
 
 namespace krest
 {
@@ -17,7 +17,7 @@ namespace test
 
 static inline QString testDataPath(QString const& path)
 {
-  return QStringLiteral(SEALTK_TEST_DATA_DIR "/") + path;
+  return QStringLiteral(KREST_TEST_DATA_DIR "/") + path;
 }
 
 } // namespace test

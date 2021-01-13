@@ -28,7 +28,7 @@ namespace core
 
 class KwiverVideoSourcePrivate;
 
-class SEALTK_CORE_EXPORT KwiverVideoSource : public VideoSource
+class KREST_CORE_EXPORT KwiverVideoSource : public VideoSource
 {
   Q_OBJECT
 

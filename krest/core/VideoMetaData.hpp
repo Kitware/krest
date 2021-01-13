@@ -22,7 +22,7 @@ namespace core
 
 class VideoMetaDataData;
 
-class SEALTK_CORE_EXPORT VideoMetaData
+class KREST_CORE_EXPORT VideoMetaData
 {
 public:
   explicit VideoMetaData(kwiver::vital::timestamp const& timeStamp = {},

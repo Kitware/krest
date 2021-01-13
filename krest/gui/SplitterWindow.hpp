@@ -21,7 +21,7 @@ class SplitterWindowPrivate;
 
 class Window;
 
-class SEALTK_GUI_EXPORT SplitterWindow : public QWidget
+class KREST_GUI_EXPORT SplitterWindow : public QWidget
 {
   Q_OBJECT
 

@@ -17,7 +17,7 @@ namespace krest
 namespace gui
 {
 
-QTE_BEGIN_META_NAMESPACE(SEALTK_GUI_EXPORT, representation_enums)
+QTE_BEGIN_META_NAMESPACE(KREST_GUI_EXPORT, representation_enums)
 
 /// Item visibility mode.
 ///
@@ -43,7 +43,7 @@ class AbstractItemRepresentationPrivate;
 /// a generic data model. It provides some common functionality for translating
 /// low-level data types into data suitable for presentation, as well as common
 /// handling for handling and manipulating item visibility states.
-class SEALTK_GUI_EXPORT AbstractItemRepresentation
+class KREST_GUI_EXPORT AbstractItemRepresentation
   : public sealtk::core::AbstractProxyModel
 {
   Q_OBJECT

@@ -30,7 +30,7 @@ struct VideoFrame;
 /// complete video request. This subset consists of data which is trivial to
 /// copy (in particular, it excludes the shared pointer to the requestor), and
 /// is used when sending a response to a request.
-struct SEALTK_CORE_EXPORT VideoRequestInfo
+struct KREST_CORE_EXPORT VideoRequestInfo
 {
   /// Unique identifier of this request.
   ///
@@ -62,7 +62,7 @@ struct SEALTK_CORE_EXPORT VideoRequestInfo
 ///
 /// This structure fully describes a video request. Most of the information is
 /// carried by the base #VideoRequestInfo structure.
-struct SEALTK_CORE_EXPORT VideoRequest : VideoRequestInfo
+struct KREST_CORE_EXPORT VideoRequest : VideoRequestInfo
 {
   /// Send reply to the request.
   ///

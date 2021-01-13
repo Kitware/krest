@@ -23,7 +23,7 @@ class VideoSource;
 class VideoDistributorPrivate;
 
 // ============================================================================
-class SEALTK_CORE_EXPORT VideoDistributor : public QObject
+class KREST_CORE_EXPORT VideoDistributor : public QObject
 {
   Q_OBJECT
 

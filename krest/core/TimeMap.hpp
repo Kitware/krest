@@ -23,7 +23,7 @@ namespace krest
 namespace core
 {
 
-QTE_BEGIN_META_NAMESPACE(SEALTK_CORE_EXPORT, time_map_enums)
+QTE_BEGIN_META_NAMESPACE(KREST_CORE_EXPORT, time_map_enums)
 
 /// Requested seek mode.
 ///

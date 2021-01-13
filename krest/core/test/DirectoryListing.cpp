@@ -25,7 +25,7 @@ namespace test
 using FileMap = QHash<QString, QString>;
 
 auto const TEST_DATA_ROOT =
-  QDir{SEALTK_TEST_DATA_PATH("DirectoryListing")}.absolutePath();
+  QDir{KREST_TEST_DATA_PATH("DirectoryListing")}.absolutePath();
 
 auto const TYPE_EX1 = QStringLiteral("ex1");
 auto const TYPE_EX2 = QStringLiteral("ex2");

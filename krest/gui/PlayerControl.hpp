@@ -28,7 +28,7 @@ namespace gui
 
 class PlayerControlPrivate;
 
-class SEALTK_GUI_EXPORT PlayerControl : public QWidget
+class KREST_GUI_EXPORT PlayerControl : public QWidget
 {
   Q_OBJECT
 

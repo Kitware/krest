@@ -76,7 +76,7 @@ void TestKwiverVideoSource::init()
   kv::algo::video_input::set_nested_algo_configuration(
     "video_reader", this->config, videoReader);
   videoReader->open(
-    stdString(SEALTK_TEST_DATA_PATH("KwiverVideoSource/list.txt")));
+    stdString(KREST_TEST_DATA_PATH("KwiverVideoSource/list.txt")));
 
   this->videoSource = make_unique<core::KwiverVideoSource>(videoReader);
   this->videoSource->start();

@@ -25,7 +25,7 @@ class DirectoryListingData;
 ///
 /// This class encapsulates a listing of all files in a specified directory
 /// which match a specified set of file types (extensions).
-class SEALTK_CORE_EXPORT DirectoryListing
+class KREST_CORE_EXPORT DirectoryListing
 {
 public:
   //@{

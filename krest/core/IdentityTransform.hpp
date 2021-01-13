@@ -15,7 +15,7 @@ namespace krest
 namespace core
 {
 
-class SEALTK_CORE_EXPORT IdentityTransform : public kwiver::vital::transform_2d
+class KREST_CORE_EXPORT IdentityTransform : public kwiver::vital::transform_2d
 {
 public:
   kwiver::vital::transform_2d_sptr clone() const override;

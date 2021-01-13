@@ -23,11 +23,11 @@ namespace core
 {
 
 kwiver::vital::detected_object_type_sptr
-SEALTK_CORE_EXPORT classificationToDetectedObjectType(
+KREST_CORE_EXPORT classificationToDetectedObjectType(
   QVariantHash const& classification);
 
 kwiver::vital::detected_object_sptr
-SEALTK_CORE_EXPORT createDetection(
+KREST_CORE_EXPORT createDetection(
   QRectF const& detection,
   QVariantHash const& classification = {},
   QStringList const& notes = {});

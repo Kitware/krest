@@ -139,7 +139,7 @@ void TestKwiverDetectionsSink::kw18()
   sink.writeData(uri);
 
   auto const& expected =
-    SEALTK_TEST_DATA_PATH("KwiverDetectionsSink/expected.kw18");
+    KREST_TEST_DATA_PATH("KwiverDetectionsSink/expected.kw18");
   compareFiles(out, expected, QRegularExpression{QStringLiteral("^#")});
 }
 
@@ -167,7 +167,7 @@ void TestKwiverDetectionsSink::csv()
   sink.writeData(uri);
 
   auto const& expected =
-    SEALTK_TEST_DATA_PATH("KwiverDetectionsSink/expected.csv");
+    KREST_TEST_DATA_PATH("KwiverDetectionsSink/expected.csv");
   compareFiles(out, expected, QRegularExpression{QStringLiteral("^#")});
 }
 

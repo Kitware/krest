@@ -36,7 +36,7 @@ struct DetectionInfo
 };
 
 // ============================================================================
-class SEALTK_GUI_EXPORT DetectionRepresentation
+class KREST_GUI_EXPORT DetectionRepresentation
 {
 public:
   DetectionRepresentation();

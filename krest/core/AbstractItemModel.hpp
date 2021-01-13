@@ -27,7 +27,7 @@ namespace core
 ///
 /// The default implementations of #index and #parent are suitable for "flat"
 /// models. Models that provide tree-structured data should override these.
-class SEALTK_CORE_EXPORT AbstractItemModel : public QAbstractItemModel
+class KREST_CORE_EXPORT AbstractItemModel : public QAbstractItemModel
 {
   Q_OBJECT
 

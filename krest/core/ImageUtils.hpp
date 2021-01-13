@@ -18,10 +18,10 @@ namespace krest
 namespace core
 {
 
-QImage SEALTK_CORE_EXPORT imageContainerToQImage(
+QImage KREST_CORE_EXPORT imageContainerToQImage(
   kwiver::vital::image_container_sptr const& image);
 
-void SEALTK_CORE_EXPORT imageToTexture(
+void KREST_CORE_EXPORT imageToTexture(
   QOpenGLTexture& texture,
   kwiver::vital::image_container_sptr const& image);
 

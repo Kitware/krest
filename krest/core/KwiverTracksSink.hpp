@@ -23,7 +23,7 @@ class VideoSource;
 class KwiverTracksSinkPrivate;
 
 // ============================================================================
-class SEALTK_CORE_EXPORT KwiverTracksSink : public AbstractDataSink
+class KREST_CORE_EXPORT KwiverTracksSink : public AbstractDataSink
 {
   Q_OBJECT
 

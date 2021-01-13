@@ -23,7 +23,7 @@ class VideoSource;
 class KwiverDetectionsSinkPrivate;
 
 // ============================================================================
-class SEALTK_CORE_EXPORT KwiverDetectionsSink : public AbstractDataSink
+class KREST_CORE_EXPORT KwiverDetectionsSink : public AbstractDataSink
 {
   Q_OBJECT
 

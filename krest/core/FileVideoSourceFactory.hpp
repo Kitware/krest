@@ -24,7 +24,7 @@ class VideoSource;
 
 class FileVideoSourceFactoryPrivate;
 
-class SEALTK_CORE_EXPORT FileVideoSourceFactory : public VideoSourceFactory
+class KREST_CORE_EXPORT FileVideoSourceFactory : public VideoSourceFactory
 {
   Q_OBJECT
 

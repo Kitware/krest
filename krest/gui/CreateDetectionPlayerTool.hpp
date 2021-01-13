@@ -21,7 +21,7 @@ namespace gui
 
 class CreateDetectionPlayerToolPrivate;
 
-class SEALTK_GUI_EXPORT CreateDetectionPlayerTool : public PlayerTool
+class KREST_GUI_EXPORT CreateDetectionPlayerTool : public PlayerTool
 {
   Q_OBJECT
 

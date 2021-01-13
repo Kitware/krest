@@ -23,7 +23,7 @@ namespace core
 class VideoSource;
 
 // ============================================================================
-class SEALTK_CORE_EXPORT AbstractDataSink : public QObject
+class KREST_CORE_EXPORT AbstractDataSink : public QObject
 {
   Q_OBJECT
 

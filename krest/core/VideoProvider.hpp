@@ -27,7 +27,7 @@ class VideoSourcePrivate;
 /// implementation to interface with the concrete implementation in order to
 /// manage request queuing and other common tasks related to the multi-threaded
 /// nature of video sources.
-class SEALTK_CORE_EXPORT VideoProvider : public QObject
+class KREST_CORE_EXPORT VideoProvider : public QObject
 {
 protected:
   friend class VideoSourcePrivate;

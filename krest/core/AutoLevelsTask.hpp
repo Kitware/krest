@@ -21,7 +21,7 @@ namespace core
 
 class AutoLevelsTaskPrivate;
 
-class SEALTK_CORE_EXPORT AutoLevelsTask : public QObject
+class KREST_CORE_EXPORT AutoLevelsTask : public QObject
 {
   Q_OBJECT
 

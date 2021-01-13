@@ -22,7 +22,7 @@ class VideoSource;
 class KwiverPipelineWorkerPrivate;
 
 // ----------------------------------------------------------------------------
-class SEALTK_CORE_EXPORT KwiverPipelineWorker
+class KREST_CORE_EXPORT KwiverPipelineWorker
   : public kwiver::arrows::qt::EmbeddedPipelineWorker
 {
   Q_OBJECT

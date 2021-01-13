@@ -189,11 +189,11 @@ void TestVideoController::init()
   this->videoController = make_unique<VideoController>();
 
   this->createVideoSource(
-    SEALTK_TEST_DATA_PATH("VideoController/1/list.txt"));
+    KREST_TEST_DATA_PATH("VideoController/1/list.txt"));
   this->createVideoSource(
-    SEALTK_TEST_DATA_PATH("VideoController/2/list.txt"));
+    KREST_TEST_DATA_PATH("VideoController/2/list.txt"));
   this->createVideoSource(
-    SEALTK_TEST_DATA_PATH("VideoController/3/list.txt"));
+    KREST_TEST_DATA_PATH("VideoController/3/list.txt"));
 }
 
 // ----------------------------------------------------------------------------

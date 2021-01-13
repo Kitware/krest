@@ -131,7 +131,7 @@ void TestKwiverPipelineWorker::initTestCase()
   for (auto const n : { 1, 2, 3 })
   {
     auto const& input =
-      SEALTK_TEST_DATA_PATH("KwiverPipelineWorker/list%1.txt").arg(n);
+      KREST_TEST_DATA_PATH("KwiverPipelineWorker/list%1.txt").arg(n);
 
     kv::algo::video_input_sptr videoReader;
     kv::algo::video_input::set_nested_algo_configuration(
@@ -242,7 +242,7 @@ void TestKwiverPipelineWorker::pipeline_data()
   QTest::addColumn<QVector<QStringList>>("expectedFrames");
 
   QTest::newRow("matching sources")
-    << SEALTK_TEST_DATA_PATH("KwiverPipelineWorker/matching.pipe")
+    << KREST_TEST_DATA_PATH("KwiverPipelineWorker/matching.pipe")
     << true << QVector<int>{0, 1, 2}
     << QVector<QStringList>{
          {"1000.png", "1000.png", QString{}},
@@ -253,7 +253,7 @@ void TestKwiverPipelineWorker::pipeline_data()
        };
 
   QTest::newRow("missing source")
-    << SEALTK_TEST_DATA_PATH("KwiverPipelineWorker/missing.pipe")
+    << KREST_TEST_DATA_PATH("KwiverPipelineWorker/missing.pipe")
     << true << QVector<int>{0, -1, 2}
     << QVector<QStringList>{
          {"1000.png", QString{}, QString{}},
@@ -264,7 +264,7 @@ void TestKwiverPipelineWorker::pipeline_data()
        };
 
   QTest::newRow("excess sources")
-    << SEALTK_TEST_DATA_PATH("KwiverPipelineWorker/excess.pipe")
+    << KREST_TEST_DATA_PATH("KwiverPipelineWorker/excess.pipe")
     << false << QVector<int>{0, 1, 2}
     << QVector<QStringList>{
          {"1000.png"},

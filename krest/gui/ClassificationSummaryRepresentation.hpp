@@ -23,7 +23,7 @@ class ClassificationSummaryRepresentationPrivate;
 ///
 /// This class provides an item model representation which collects and
 /// summarizes item classifications.
-class SEALTK_GUI_EXPORT ClassificationSummaryRepresentation
+class KREST_GUI_EXPORT ClassificationSummaryRepresentation
   : public QAbstractItemModel
 {
   Q_OBJECT

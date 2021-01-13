@@ -25,7 +25,7 @@ class ScalarFilterModelPrivate;
 ///
 /// Note that, unlike a "normal" filter, this does \em not actually reject
 /// rows, but rather modifies the VisibilityRole data of the underlying model.
-class SEALTK_CORE_EXPORT ScalarFilterModel : public AbstractProxyModel
+class KREST_CORE_EXPORT ScalarFilterModel : public AbstractProxyModel
 {
   Q_OBJECT
 

@@ -83,7 +83,7 @@ void TestKwiverTrackSource::loadTracks()
           [&](){ loop.quit(); });
 
   auto const filename =
-    SEALTK_TEST_DATA_PATH("KwiverTrackSource/test.kw18");
+    KREST_TEST_DATA_PATH("KwiverTrackSource/test.kw18");
   auto uri = QUrl::fromLocalFile(filename);
   auto params = QUrlQuery{};
 

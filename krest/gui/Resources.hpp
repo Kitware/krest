@@ -13,7 +13,7 @@ namespace krest
 namespace gui
 {
 
-class SEALTK_GUI_EXPORT Resources
+class KREST_GUI_EXPORT Resources
 {
 public:
   Resources();

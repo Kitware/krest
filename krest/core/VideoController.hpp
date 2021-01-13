@@ -26,7 +26,7 @@ class VideoSource;
 
 class VideoControllerPrivate;
 
-class SEALTK_CORE_EXPORT VideoController : public QObject
+class KREST_CORE_EXPORT VideoController : public QObject
 {
   Q_OBJECT
 

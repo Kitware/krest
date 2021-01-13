@@ -27,7 +27,7 @@ struct VideoRequest;
 class VideoSourcePrivate;
 
 // ============================================================================
-class SEALTK_CORE_EXPORT VideoSource : public QObject
+class KREST_CORE_EXPORT VideoSource : public QObject
 {
   Q_OBJECT
 

@@ -20,7 +20,7 @@ struct VideoRequest;
 struct VideoRequestInfo;
 
 // ============================================================================
-class SEALTK_CORE_EXPORT VideoRequestor : public QObject
+class KREST_CORE_EXPORT VideoRequestor : public QObject
 {
   Q_OBJECT
 

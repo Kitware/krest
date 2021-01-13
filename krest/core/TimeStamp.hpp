@@ -15,7 +15,7 @@ namespace krest
 namespace core
 {
 
-class SEALTK_CORE_EXPORT TimeStamp : public kwiver::vital::timestamp
+class KREST_CORE_EXPORT TimeStamp : public kwiver::vital::timestamp
 {
 public:
   TimeStamp();

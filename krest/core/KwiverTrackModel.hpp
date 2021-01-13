@@ -21,7 +21,7 @@ namespace core
 
 class KwiverTrackModelData;
 
-class SEALTK_CORE_EXPORT KwiverTrackModel : public AbstractItemModel
+class KREST_CORE_EXPORT KwiverTrackModel : public AbstractItemModel
 {
   Q_OBJECT
 

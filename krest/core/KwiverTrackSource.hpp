@@ -20,7 +20,7 @@ namespace core
 class KwiverTrackSourcePrivate;
 
 // ============================================================================
-class SEALTK_CORE_EXPORT KwiverTrackSource : public AbstractDataSource
+class KREST_CORE_EXPORT KwiverTrackSource : public AbstractDataSource
 {
   Q_OBJECT
 

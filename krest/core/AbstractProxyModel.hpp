@@ -22,7 +22,7 @@ namespace core
 /// This class provides a base class for implementing sort/filter proxy models.
 /// In particular, it provides a shared mechanism for comparing data that is
 /// data-role aware.
-class SEALTK_CORE_EXPORT AbstractProxyModel : public QSortFilterProxyModel
+class KREST_CORE_EXPORT AbstractProxyModel : public QSortFilterProxyModel
 {
   Q_OBJECT
 

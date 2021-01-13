@@ -19,7 +19,7 @@ namespace gui
 
 class GlobInputDialogPrivate;
 
-class SEALTK_GUI_EXPORT GlobInputDialog : public QDialog
+class KREST_GUI_EXPORT GlobInputDialog : public QDialog
 {
   Q_OBJECT
 

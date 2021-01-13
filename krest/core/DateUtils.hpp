@@ -17,23 +17,23 @@ namespace krest
 namespace core
 {
 
-SEALTK_CORE_EXPORT
+KREST_CORE_EXPORT
 QDateTime vitalTimeToQDateTime(kwiver::vital::timestamp::time_t time);
 
-SEALTK_CORE_EXPORT
+KREST_CORE_EXPORT
 kwiver::vital::timestamp::time_t qDateTimeToVitalTime(
   QDateTime const& dateTime);
 
-SEALTK_CORE_EXPORT
+KREST_CORE_EXPORT
 QString dateString(QDateTime const& dateTime);
 
-SEALTK_CORE_EXPORT
+KREST_CORE_EXPORT
 QString dateString(kwiver::vital::timestamp::time_t time);
 
-SEALTK_CORE_EXPORT
+KREST_CORE_EXPORT
 QString timeString(QDateTime const& dateTime);
 
-SEALTK_CORE_EXPORT
+KREST_CORE_EXPORT
 QString timeString(kwiver::vital::timestamp::time_t time);
 
 } // namespace core

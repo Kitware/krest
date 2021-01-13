@@ -23,7 +23,7 @@ class Player;
 
 class PlayerToolPrivate;
 
-class SEALTK_GUI_EXPORT PlayerTool : public QObject
+class KREST_GUI_EXPORT PlayerTool : public QObject
 {
   Q_OBJECT
 

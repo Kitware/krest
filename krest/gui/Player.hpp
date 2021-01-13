@@ -29,7 +29,7 @@ namespace krest
 namespace gui
 {
 
-QTE_BEGIN_META_NAMESPACE(SEALTK_GUI_EXPORT, player_enums)
+QTE_BEGIN_META_NAMESPACE(KREST_GUI_EXPORT, player_enums)
 
 enum class ContrastMode
 {
@@ -60,7 +60,7 @@ class PlayerTool;
 
 class PlayerPrivate;
 
-class SEALTK_GUI_EXPORT Player : public QOpenGLWidget
+class KREST_GUI_EXPORT Player : public QOpenGLWidget
 {
   Q_OBJECT
 

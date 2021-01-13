@@ -19,7 +19,7 @@ namespace gui
 
 class FilterWidgetPrivate;
 
-class SEALTK_GUI_EXPORT FilterWidget : public QWidget
+class KREST_GUI_EXPORT FilterWidget : public QWidget
 {
   Q_OBJECT
   Q_PROPERTY(double value READ value WRITE setValue NOTIFY valueChanged)

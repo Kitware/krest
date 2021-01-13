@@ -17,7 +17,7 @@ namespace krest
 namespace core
 {
 
-QTE_BEGIN_META_NAMESPACE(SEALTK_CORE_EXPORT, data_model_types)
+QTE_BEGIN_META_NAMESPACE(KREST_CORE_EXPORT, data_model_types)
 
 /// Well known item types.
 enum ItemType

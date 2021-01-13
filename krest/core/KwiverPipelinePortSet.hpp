@@ -20,7 +20,7 @@ namespace core
 {
 
 // ============================================================================
-class SEALTK_CORE_EXPORT KwiverPipelinePortSet
+class KREST_CORE_EXPORT KwiverPipelinePortSet
 {
 public:
   static std::string portName(std::string const& base, int index);

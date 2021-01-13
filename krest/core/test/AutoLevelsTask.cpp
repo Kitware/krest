@@ -62,7 +62,7 @@ void TestAutoLevelsTask::initTestCase()
   if (auto io = kv::algo::image_io::create("vxl"))
   {
     m_image = io->load(
-      stdString(SEALTK_TEST_DATA_PATH("AutoLevelsTask/test.tif")));
+      stdString(KREST_TEST_DATA_PATH("AutoLevelsTask/test.tif")));
   }
 }
 
