@@ -18,6 +18,9 @@ list(APPEND CMAKE_MODULE_PATH
   "${PROJECT_SOURCE_DIR}/cmake/thirdparty"
   )
 
+find_package(kwiver REQUIRED)
+find_package(fletch QUIET)
+find_package(qtExtensions REQUIRED)
 find_package(Qt5 5.10 REQUIRED COMPONENTS
   Test
   Widgets
@@ -27,8 +30,6 @@ find_package(Qt5 5.10 REQUIRED COMPONENTS
   Gui
   Core
   )
-find_package(qtExtensions REQUIRED)
-find_package(kwiver REQUIRED)
 find_package(Threads REQUIRED)
 find_package(Git)
 find_package(Sphinx)
