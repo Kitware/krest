@@ -72,6 +72,7 @@ krest_add_library(krest::core
     VideoMetaData.hpp
     VideoProvider.hpp
     VideoRequest.hpp
+    VideoRequestor.hpp
     VideoSource.hpp
     VideoSourceFactory.hpp
     "${KREST_CORE_VERSION_OUT}"
