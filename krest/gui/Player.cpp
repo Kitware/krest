@@ -231,7 +231,7 @@ public:
   QMatrix4x4 inverseHomography;
   QSize homographyImageSize;
 
-  QString noVideoText = QStringLiteral("Right-click to load imagery");
+  QString placeholderText = QStringLiteral("Unavailable");
 
   QVector<float> detectedObjectVertexData;
   QVector<DetectionInfo> detectedObjectVertexIndices;
@@ -874,10 +874,17 @@ void Player::setHomographyImageSize(QSize size)
 }
 
 // ----------------------------------------------------------------------------
-void Player::setNoVideoText(QString const& text)
+QString Player::placeholderText() const
 {
   QTE_D();
-  d->noVideoText = text;
+  return d->placeholderText;
+}
+
+// ----------------------------------------------------------------------------
+void Player::setPlaceholderText(QString const& text)
+{
+  QTE_D();
+  d->placeholderText = text;
 }
 
 // ----------------------------------------------------------------------------
@@ -982,7 +989,7 @@ void Player::paintEvent(QPaintEvent* event)
   {
     static auto const noFrame = QStringLiteral("(NO IMAGE)");
 
-    auto const& text = (d->videoSource ? noFrame : d->noVideoText);
+    auto const& text = (d->videoSource ? noFrame : d->placeholderText);
 
     QPainter painter{this};
     painter.setPen(Qt::white);
