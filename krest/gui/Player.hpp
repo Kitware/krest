@@ -83,6 +83,9 @@ class KREST_GUI_EXPORT Player : public QOpenGLWidget
   Q_PROPERTY(QColor pendingColor READ pendingColor
              WRITE setPendingColor NOTIFY pendingColorChanged)
 
+  Q_PROPERTY(QString placeholderText READ placeholderText
+             WRITE setPlaceholderText)
+
 public:
   explicit Player(QWidget* parent = nullptr);
   ~Player() override;
@@ -109,6 +112,8 @@ public:
   QColor defaultColor() const;
   QColor selectionColor() const;
   QColor pendingColor() const;
+
+  QString placeholderText() const;
 
 signals:
   void zoomChanged(float zoom) const;
@@ -147,6 +152,8 @@ public slots:
   void setSelectionColor(QColor const& color);
   void setPendingColor(QColor const& color);
 
+  void setPlaceholderText(QString const& text);
+
   void setCenterToTrack(qint64 id, kwiver::vital::timestamp::time_t time);
 
   void setShadowTrackModel(QObject* source, QAbstractItemModel* model);
@@ -155,8 +162,6 @@ public slots:
 
 protected:
   QTE_DECLARE_PRIVATE(Player)
-
-  void setNoVideoText(QString const& text);
 
   void initializeGL() override;
   void paintGL() override;
