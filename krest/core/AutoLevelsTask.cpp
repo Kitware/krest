@@ -247,7 +247,7 @@ void AutoLevelsTask::execute()
   auto const channelOffset = (pt.type == PixelType::SIGNED ? 0.5 : 0.0);
   auto const channelScale =
     imageChannelScale(pt) / static_cast<double>(channels);
-  auto chanelWeights = std::vector<double>(channels, channelScale);
+  auto channelWeights = std::vector<double>(channels, channelScale);
 
   // Examine image
   while (stride--)
@@ -262,7 +262,7 @@ void AutoLevelsTask::execute()
         }
 
         // Get pixel value
-        auto const v = (*pf)(image, i << stride, j << stride, chanelWeights);
+        auto const v = (*pf)(image, i << stride, j << stride, channelWeights);
         auto const vn = std::min(std::max(0.0, v + channelOffset), 1.0);
 
         // Get bucket index and increment bucket count
