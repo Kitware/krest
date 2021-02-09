@@ -233,9 +233,9 @@ void KREST_CORE_EXPORT imageToTexture(
   auto const yk = image.height();
   auto const ck = image.depth();
 
-  auto const xs = image.w_step();
-  auto const ys = image.h_step();
-  auto cs = image.d_step();
+  auto const xs = image.w_step() * ss;
+  auto const ys = image.h_step() * ss;
+  auto cs = image.d_step() * ss;
 
   auto* first = reinterpret_cast<char const*>(image.first_pixel());
   auto const isPlanePacked = (std::abs(cs) > std::abs(ys));
